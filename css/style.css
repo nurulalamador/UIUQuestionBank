@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: #eeeeee;
+    color: #666666;
+    -webkit-user-select: none; /* Safari */
+    user-select: none; /* Standard syntax */
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.menuBar {
+    background-color: #ff6622;
+    color: #ffffff;
+    padding: 6px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 901;
+}
+.menuBar .icon {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 6px 8px;
+    margin: 2px 6px;
+    font-size: 24px;
+    border-radius: 8px;
+}
+.menuBar .text {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 4px;
+    width: calc(100% - 70px);
+}
+.menuBar .text .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.menuBar .text .semiTitle {
+    font-size: 14px;
+    margin-top: 1px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.content {
+    padding: 6px;
+    max-width: 800px;
+    margin: auto;
+}
+.contentBox {
+    padding: 8px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 12px;
+}
+.contentBox .mainTitle {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 12px;
+}
+.contentBox .seeMore {
+    float: right;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    color: #ff6622;
+    font-size: 14px;
+}
+.contentBox .seeMore .text {
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 4px;
+}
+.contentBox .seeMore .icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 4px;
+    font-size: 18px;
+}
+.searchBox {
+    background-color: #cccccc;
+    margin: 6px 10px;
+    padding: 8px 12px;
+    border-radius: 100px;
+}
+.searchBox input {
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 3px;
+}
+.searchBox .icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 3px;
+}
+.stickySearchBox {
+    position: sticky;
+    top: 56px;
+    padding: 6px 10px;
+    padding-top: 12px;
+    background: linear-gradient(#eeeeee 60%, rgb(238, 238, 238, 0));
+    z-index: 900;
+    max-width: 800px;
+    margin: auto;
+}
+.stickySearchBox .searchBox {
+    padding: 10px 14px;
+}
+.contentBox .searchBox {
+    background-color: #eeeeee;
+    margin-top: 16px;
+}
+.courseBoxContainer {
+    text-align: left;
+    padding: 4px;
+}
+.courseBoxContainer .courseBox {
+    border-radius: 10px;
+    background: #ff6622;
+    color: #ffffff;
+    margin: 8px 6px;
+    text-align: left;
+    height: 110px;
+    position: relative;
+}
+.courseBoxContainer .courseBox .text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    padding: 12px 18px;
+}
+.courseBoxContainer .courseBox .text .title {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px;
+}
+.courseBoxContainer .courseBox .text .semiTitle {
+    font-style: italic;
+    padding: 4px;
+    font-size: 12px;
+}
+.forCoursePage {
+    margin-top: 0;
+    padding: 6px;
+}
+
+
+.trimesterButton {
+    padding: 8px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 12px;
+    background-color: #ff6622;
+    color: #ffffff;
+    text-align: center;
+}
+.trimesterButton .text {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    margin: 6px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.trimesterButton .icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 6px;
+    font-size: 22px;
+}
+
+.notFound {
+    text-align: center;
+    padding: 12px;
+}
+.notFound .icon {
+    padding: 3px;
+    font-size: 80px;
+}
+.notFound .text .title{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px;
+}
+.notFound .text .semiTitle {
+    padding: 3px;
+}
+
+
+.rippleButton, .rippleButtonBlack {
+    position: relative;
+    overflow: hidden;
+}
+
+.rippleButton span {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -40px;
+    animation: ripple 1s;
+    opacity: 0;
+}
+.rippleButtonBlack span {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -40px;
+    animation: ripple 1s;
+    opacity: 0;
+}
+@keyframes ripple {
+    from {
+        opacity: 1;
+        transform: scale(0);
+    }
+    to {
+        opacity: 0;
+        transform: scale(10);
+    }
+}
+
+.trimesterBoxContainer {
+    text-align: center;
+    padding: 2px;
+}
+.trimesterBox {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(50% - 10px);
+    background-color: #eeeeee;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: right;
+    margin: 5px 3px;
+    padding: 5px;
+}
+.trimesterBox .text {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 45px);
+    text-align: center;
+}
+.trimesterBox .number {
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #ff6622;
+    color: #ffffff;
+}
+.courseInfoBox {
+    color: #ffffff;
+    padding: 12px;
+    text-align: center;
+}
+
+.courseInfoBox .title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 4px;
+}
+.courseInfoBox .semiTitle {
+    font-style: italic;
+    padding: 4px;
+    font-size: 12px;
+}
+
+
+.examTypeBoxContainer {
+    padding: 3px;
+}
+.examTypeBox {
+    background-color: #eeeeee;
+    border-radius: 12px;
+    text-align: center;
+    margin: 10px;
+    overflow: hidden;
+}
+.examTypeBox .icon {
+    font-size: 60px;
+    background-color: #ff6622;
+    color: #ffffff;
+    padding: 12px;
+    box-shadow: inset 0 0 0 1000px rgba(238,238,238,0.2);
+    text-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+.examTypeBox .text {
+    padding: 12px;
+}
+.examTypeBox .title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.questionBoxContainer {
+    text-align: center;
+    padding: 4px;
+    padding-top: 2px;
+}
+.questionBox {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(50% - 15px);
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+.questionBox .code {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ff6622;
+    color: #ffffff;
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 50px;
+    margin: 5px;
+}
+.questionBox .name {
+    margin: 5px;
+}
+
+iframe {
+    outline: 0;
+    border: 0;
+    width: 100%;
+    height: calc(100vh - 65px);
+}
