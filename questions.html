@@ -10,28 +10,30 @@
     <script src="js/jquery.min.js"></script>
 </head>
 <body>
-    <div class="menuBar">
+    <div class="menuBar" id="menuBarDiv">
         <a onclick="history.back()"><div class="icon rippleButton">
             <i class="fas fa-arrow-left"></i>
         </div></a>
         <div class="text">
-            <div class="title">All Courses</div>
-        </div>
-    </div>
-    <div class="stickySearchBox">
-        <div class="searchBox">
-            <div class="icon"><i class="fas fa-search"></i></div>
-            <input type="text" placeholder="Search Course" id="searchCourse"/> 
+            <div class="title" id="titleDiv"></div>
+            <div class="semiTitle" id="semiTitleDiv"></div>
         </div>
     </div>
     <div class="content">
-        <div class="contentBox forCoursePage">
-            <div class="courseBoxContainer" id="courseBoxContainer">
-                
+        <div class="contentBox" id="courseInfoBox">
+            <div class="courseInfoBox">
+                <div class="title" id="courseTitle"></div>
+                <div class="semiTitle" id="courseCode"></div>
             </div>
+        </div>
+        <div class="contentBox">
+            <div class="mainTitle" id="mainTitle">Questions</div>
+                <div class="questionBoxContainer" id="questionBoxContainer">
+
+                </div>
         </div>
     </div>
     <script src="https://okkhor52.com/other/questions.php"></script>
-    <script src="js/courses.js?new"></script>
+    <script src="js/questions.js?new"></script>
 </body>
 </html>

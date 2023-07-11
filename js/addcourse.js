@@ -18,7 +18,7 @@ function fillUpCourseBoxContainer(courses) {
         courses.forEach(function(course) {
             document.getElementById("courseBoxContainer").innerHTML += 
             `
-            <a href="course.html?id=${course.id}">            
+            <a onclick="addCourse('${course.id}')">            
                 <div class="courseBox rippleButton" style="background-image: ${course.css}">
                     <div class="text">
                         <div class="title">${course.title}</div>
@@ -43,6 +43,30 @@ document.getElementById("searchCourse").oninput = function(e) {
     fillUpCourseBoxContainer(searchCourses);
 }
 
+function addCourse(courseId) {
+    var currentBookmarkedCourseData = localStorage.getItem("bookmarkedCourse");
+    var currentBookmarkedCourse = currentBookmarkedCourseData.split(",");
+    var isOverlap = true;
+    currentBookmarkedCourse.forEach(function(e) {
+        if(e==courseId) {
+            isOverlap = false;
+        }
+    });
+    if(isOverlap) {
+        if(currentBookmarkedCourseData == '') {
+            var newBookmarkedCourseData = courseId;
+        }
+        else {
+            var newBookmarkedCourseData = currentBookmarkedCourseData+","+courseId;
+        }
+        localStorage.setItem("bookmarkedCourse",newBookmarkedCourseData);
+        history.back();
+    }
+    else {
+        showToast("This course is already added!")
+    }
+}
+
 $("html").on("pointerdown", ".rippleButton, .rippleButtonBlack", function(evt) {
     var btn = $(evt.currentTarget);
     var x = evt.pageX - btn.offset().left;
@@ -58,3 +82,12 @@ $("html").on("pointerup", ".rippleButton, .rippleButtonBlack", function(evt) {
         $('.ripple').remove();
     }, 500);
 });
+
+function showToast(string) {
+    var x = document.getElementById("snackbar");
+    if(x.className != "show") {
+        x.className = "show";
+        x.innerHTML = string;
+        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+    }
+}

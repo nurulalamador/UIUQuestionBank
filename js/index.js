@@ -1,4 +1,21 @@
-function fillUpCourseBoxContainer(courses) {
+if(!navigator.onLine) {
+    document.getElementById("noConnectionBoxBackground").style.display = "block";
+}
+
+document.getElementById("reloadApp").onclick = function() {
+    location.reload();
+}
+
+Trimesters.forEach(function(e) {
+    document.getElementById("trimesterList").innerHTML += `<option value="${e.courses}">Trimester ${e.trimester}</option>`
+});
+
+if(localStorage.getItem("bookmarkedCourseAdded") == null) {
+    localStorage.setItem("bookmarkedCourse", "MAT1151,CSE1115,CSE1325");
+    document.getElementById("trimesterBoxBackground").style.display = "block";
+}
+
+function fillUpCourseBoxContainer(courses, length) {
     document.getElementById("courseBoxContainer").innerHTML = ""; 
     if(courses.length == 0) {
         document.getElementById("courseBoxContainer").innerHTML += 
@@ -16,8 +33,8 @@ function fillUpCourseBoxContainer(courses) {
     }
     else {
         var n;
-        if(courses.length > 3) {
-            n = 3;
+        if(courses.length > length) {
+            n = length;
         }
         else {
             n = courses.length;
@@ -40,17 +57,82 @@ function fillUpCourseBoxContainer(courses) {
     }
 }
 
-fillUpCourseBoxContainer(Courses);
+bookmarkedCourseData = localStorage.getItem("bookmarkedCourse");
+bookmarkedCourse = [];
+
+if(bookmarkedCourseData != '') {
+    bookmarkedCourseData = bookmarkedCourseData.split(",");
+    bookmarkedCourseData.forEach(function(code) {
+        matchedCourse = Courses.filter(function(el) {
+            return el.id.includes(code);
+        });
+        bookmarkedCourse.push(matchedCourse[0]);
+    });
+}
+
+fillUpCourseBoxContainer(bookmarkedCourse, bookmarkedCourse.length);
 
 document.getElementById("searchCourse").oninput = function(e) {
     var searchValue = e.target.value;
     
-    searchCourses = Courses.filter(function(el) {
-        return el.title.toLowerCase().includes(searchValue.toLowerCase()) || el.code.toLowerCase().includes(searchValue.toLowerCase());
-    })
-
-    fillUpCourseBoxContainer(searchCourses);
+    if(searchValue == "" || searchValue == " ") {
+        fillUpCourseBoxContainer(bookmarkedCourse, bookmarkedCourse.length);
+    }
+    else {
+        searchCourses = Courses.filter(function(el) {
+            return el.title.toLowerCase().includes(searchValue.toLowerCase()) || el.code.toLowerCase().includes(searchValue.toLowerCase()) || el.abbr.toLowerCase().includes(searchValue.toLowerCase());
+        });
+        fillUpCourseBoxContainer(searchCourses, 3);
+    }
 }
+
+document.getElementById("openMenu").onclick = function() {
+    document.getElementById("sidebarMenuBackground").style.display = "block";
+    document.getElementById("sidebarMenu").style.left = "0px";
+}
+
+document.getElementById("sidebarMenuBackground").onclick = function() {
+    document.getElementById("sidebarMenuBackground").style.display = "none";
+    document.getElementById("sidebarMenu").style.left = "-300px";
+}
+
+document.getElementById("openAboutBox").onclick = function() {
+    document.getElementById("sidebarMenuBackground").style.display = "none";
+    document.getElementById("sidebarMenu").style.left = "-300px";
+    document.getElementById("aboutBoxBackground").style.display = "block";
+}
+document.getElementById("closeAboutBox").onclick = function() {
+    document.getElementById("aboutBoxBackground").style.display = "none";
+}
+
+document.getElementById("openTrimesterBox").onclick = function() {
+    document.getElementById("sidebarMenuBackground").style.display = "none";
+    document.getElementById("sidebarMenu").style.left = "-300px";
+    document.getElementById("trimesterBoxBackground").style.display = "block";
+}
+document.getElementById("selectTrimester").onclick = function() {
+    document.getElementById("trimesterBoxBackground").style.display = "none";
+}
+document.getElementById("selectTrimester").onclick = function() {
+    var newBookmarkedCourse = document.getElementById("trimesterList").value;
+    localStorage.setItem("bookmarkedCourse", newBookmarkedCourse);
+    localStorage.setItem("bookmarkedCourseAdded", "true");
+    location.reload();
+}
+
+function exitApp() {
+    document.getElementById("sidebarMenuBackground").style.display = "none";
+    document.getElementById("sidebarMenu").style.left = "-300px";
+    document.getElementById("exitBoxBackground").style.display = "block";
+}
+document.getElementById("closeExitBox").onclick = function() {
+    document.getElementById("exitBoxBackground").style.display = "none";
+}
+document.getElementById("exitApp").onclick = function() {
+    document.getElementById("exitBoxBackground").style.display = "none";
+    console.log("Exit App")
+}
+
 
 $("html").on("pointerdown", ".rippleButton, .rippleButtonBlack", function(evt) {
     var btn = $(evt.currentTarget);

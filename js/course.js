@@ -15,8 +15,8 @@ document.getElementById("iconOne").style.backgroundImage = Course.css;
 document.getElementById("iconTwo").style.backgroundImage = Course.css;
 document.getElementById("courseTitle").innerHTML = Course.title;
 document.getElementById("courseCode").innerHTML = Course.code;
-document.getElementById("mid").setAttribute("href", `mid.html?id=${Course.id}`);
-document.getElementById("final").setAttribute("href", `final.html?id=${Course.id}`);
+document.getElementById("mid").setAttribute("href", `questions.html?term=mid&id=${Course.id}`);
+document.getElementById("final").setAttribute("href", `questions.html?term=final&id=${Course.id}`);
 
 $("html").on("pointerdown", ".rippleButton, .rippleButtonBlack", function(evt) {
     var btn = $(evt.currentTarget);

@@ -159,6 +159,18 @@ a {
     padding: 4px;
     font-size: 12px;
 }
+.courseBoxContainer .courseBox .delete {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    color: #000000;
+    mix-blend-mode: screen;
+    padding: 8px 10px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 10px;
+}
 .forCoursePage {
     margin-top: 0;
     padding: 6px;
@@ -170,6 +182,7 @@ a {
     border-radius: 16px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
     margin: 12px;
+    margin-top: 18px;
     background-color: #ff6622;
     color: #ffffff;
     text-align: center;
@@ -204,6 +217,7 @@ a {
 }
 .notFound .text .semiTitle {
     padding: 3px;
+    margin-bottom: 10px;
 }
 
 
@@ -356,5 +370,177 @@ iframe {
     outline: 0;
     border: 0;
     width: 100%;
-    height: calc(100vh - 65px);
+    height: calc(100vh - 62px);
+}
+
+.sidebarMenuBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 998;
+    display: none;
+}
+.sidebarMenu {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 999;
+    border-radius: 0 18px 18px 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.sidebarMenu .header {
+    background-color: #ff6622;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sidebarMenu .header img {
+    width: 65%;
+}
+.sidebarMenu .menu {
+    padding: 5px 15px;
+}
+.sidebarMenu .menu .icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 22px;
+    padding: 10px;
+}
+.sidebarMenu .menu .text {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.dialogBoxBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 998;
+    display: none;
+}
+.dialogBox {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 18px;
+    width: 300px;
+    top: 50%;
+    left: calc(50% - 150px);
+    transform: translateY(-50%);
+    text-align: left;
+}
+.dialogBox .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+.dialogBox .detail {
+    margin: 10px;
+}
+.dialogBox .detail select {
+    border: 0;
+    background-color: #EEEEEE;
+    border-bottom: 2px solid #ff6622;
+    border-radius: 10px;
+    padding: 12px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 15px;   
+    outline: 0;   
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.dialogBox .detail select {
+    background-image:
+      linear-gradient(45deg, transparent 50%, gray 50%),
+      linear-gradient(135deg, gray 50%, transparent 50%),
+      linear-gradient(to right, #ccc, #ccc);
+    background-position:
+      calc(100% - 20px) calc(1em + 4px),
+      calc(100% - 15px) calc(1em + 4px),
+      calc(100% - 2.5em) 0.5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1px 25px;
+    background-repeat: no-repeat;
+  }
+
+.dialogBox .buttonContainer {
+    text-align: right;
+}
+.dialogBox .buttonContainer .button {
+    color: #ff6622;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 12px;
+    display: inline-block;
+}
+
+
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    background-color: rgba(100,100,100,100.8); /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 10px; /* Rounded borders */
+    padding: 14px; /* Padding */
+    font-size: 15px;
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    transform: translateX(-50%);
+    bottom: 30px; /* 30px from the bottom */
+    z-index: 1001;
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible; /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
 }
