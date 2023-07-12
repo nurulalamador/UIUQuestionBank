@@ -36,7 +36,7 @@ document.getElementById("titleDiv").innerHTML = termName+" - "+trimesterName;
 document.getElementById("semiTitleDiv").innerHTML = Course.title;
 
 document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-    var adobeDCView = new AdobeDC.View({clientId: "<YOUR_CLIENT_ID>", divId: "questionHere"});
+    var adobeDCView = new AdobeDC.View({clientId: "adb7ebc00d5649b184f5e4ac5e73acce", divId: "questionHere"});
     adobeDCView.previewFile({
         content:{location: {url: `https://files.catbox.moe/${Question[0].url}.pdf`}},
         metaData:{fileName: trimesterName}
