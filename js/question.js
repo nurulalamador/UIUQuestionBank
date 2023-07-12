@@ -35,13 +35,21 @@ var trimesterName = trimesterName+" 20"+getTri.charAt(0)+getTri.charAt(1);
 document.getElementById("titleDiv").innerHTML = termName+" - "+trimesterName;
 document.getElementById("semiTitleDiv").innerHTML = Course.title;
 
-document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-    var adobeDCView = new AdobeDC.View({clientId: "adb7ebc00d5649b184f5e4ac5e73acce", divId: "questionHere"});
+try {
+    var adobeDCView = new AdobeDC.View({clientId: "<YOUR_CLIENT_ID>", divId: "questionHere"});
     adobeDCView.previewFile({
         content:{location: {url: `https://files.catbox.moe/${Question[0].url}.pdf`}},
         metaData:{fileName: trimesterName}
     }, {showAnnotationTools: false, showDownloadPDF: false, showPrintPDF: false});
-});
+} catch (error) {
+    document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+        var adobeDCView = new AdobeDC.View({clientId: "<YOUR_CLIENT_ID>", divId: "questionHere"});
+        adobeDCView.previewFile({
+            content:{location: {url: `https://files.catbox.moe/${Question[0].url}.pdf`}},
+            metaData:{fileName: trimesterName}
+        }, {showAnnotationTools: false, showDownloadPDF: false, showPrintPDF: false});
+    });
+}
 
 $("html").on("pointerdown", ".rippleButton, .rippleButtonBlack", function(evt) {
     var btn = $(evt.currentTarget);
