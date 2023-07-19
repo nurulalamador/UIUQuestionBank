@@ -38,7 +38,7 @@ document.getElementById("semiTitleDiv").innerHTML = Course.title;
 try {
     var adobeDCView = new AdobeDC.View({clientId: "adb7ebc00d5649b184f5e4ac5e73acce", divId: "questionHere"});
     adobeDCView.previewFile({
-        content:{location: {url: Question[0].url}}},
+        content:{location: {url: Question[0].url}},
         metaData:{fileName: trimesterName}
     }, {showAnnotationTools: false, showDownloadPDF: false, showPrintPDF: false});
 } catch (error) {
