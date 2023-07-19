@@ -38,14 +38,14 @@ document.getElementById("semiTitleDiv").innerHTML = Course.title;
 try {
     var adobeDCView = new AdobeDC.View({clientId: "adb7ebc00d5649b184f5e4ac5e73acce", divId: "questionHere"});
     adobeDCView.previewFile({
-        content:{location: {url: `https://files.catbox.moe/${Question[0].url}.pdf`}},
+        content:{location: {url: Question[0].url}}},
         metaData:{fileName: trimesterName}
     }, {showAnnotationTools: false, showDownloadPDF: false, showPrintPDF: false});
 } catch (error) {
     document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
         var adobeDCView = new AdobeDC.View({clientId: "adb7ebc00d5649b184f5e4ac5e73acce", divId: "questionHere"});
         adobeDCView.previewFile({
-            content:{location: {url: `https://files.catbox.moe/${Question[0].url}.pdf`}},
+            content:{location: {url: Question[0].url}},
             metaData:{fileName: trimesterName}
         }, {enableLinearization: true, showAnnotationTools: false, showDownloadPDF: false, showPrintPDF: false});
     });
@@ -57,7 +57,7 @@ document.getElementById("openToolMenu").onclick = function() {
 }
 
 document.getElementById("downloadLink").innerHTML = `
-        <a href="https://files.catbox.moe/${Question[0].url}.pdf" download="${Course.title+" - "+trimesterName}.pdf">
+        <a href="${Question[0].url}" download="${Course.title+" - "+trimesterName}.pdf">
             <div class="tool rippleButtonBlack">
                 <div class="icon"><i class="fas fa-file-pdf"></i></div>
                 <div class="name">Download PDF</div>
