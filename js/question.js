@@ -36,20 +36,40 @@ document.getElementById("titleDiv").innerHTML = termName+" - "+trimesterName;
 document.getElementById("semiTitleDiv").innerHTML = Course.title;
 
 try {
-    var adobeDCView = new AdobeDC.View({clientId: "adb7ebc00d5649b184f5e4ac5e73acce", divId: "questionHere"});
+    var adobeDCView = new AdobeDC.View({clientId: "<YOUR_CLIENT_ID>", divId: "questionHere"});
     adobeDCView.previewFile({
         content:{location: {url: `https://files.catbox.moe/${Question[0].url}.pdf`}},
         metaData:{fileName: trimesterName}
     }, {showAnnotationTools: false, showDownloadPDF: false, showPrintPDF: false});
 } catch (error) {
     document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-        var adobeDCView = new AdobeDC.View({clientId: "adb7ebc00d5649b184f5e4ac5e73acce", divId: "questionHere"});
+        var adobeDCView = new AdobeDC.View({clientId: "<YOUR_CLIENT_ID>", divId: "questionHere"});
         adobeDCView.previewFile({
             content:{location: {url: `https://files.catbox.moe/${Question[0].url}.pdf`}},
             metaData:{fileName: trimesterName}
-        }, {showAnnotationTools: false, showDownloadPDF: false, showPrintPDF: false});
+        }, {enableLinearization: true, showAnnotationTools: false, showDownloadPDF: false, showPrintPDF: false});
     });
 }
+
+
+document.getElementById("openToolMenu").onclick = function() {
+    document.getElementById("toolMenu").style.display = "block";
+}
+
+document.getElementById("downloadLink").innerHTML = `
+        <a href="https://files.catbox.moe/${Question[0].url}.pdf" download="${Course.title+" - "+trimesterName}.pdf">
+            <div class="tool rippleButtonBlack">
+                <div class="icon"><i class="fas fa-file-pdf"></i></div>
+                <div class="name">Download PDF</div>
+            </div>
+        </a>
+` ;
+
+document.getElementById("toolMenu").onclick = function() {
+    document.getElementById("toolMenu").style.display = "none";
+}
+
+
 
 $("html").on("pointerdown", ".rippleButton, .rippleButtonBlack", function(evt) {
     var btn = $(evt.currentTarget);
