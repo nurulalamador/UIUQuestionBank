@@ -77,7 +77,7 @@ function GenerateZIP() {
     var percentRate = 100/(fileUrls.length);
     var currentPercent = percentRate;
     fileUrls.forEach(function(url) {
-      fetch("https://nurulalamador.github.io/UIUQuestionBank/"+url)
+      fetch(url)
         .then(function(response) {
           return response.blob();
         })
