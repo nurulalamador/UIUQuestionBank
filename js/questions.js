@@ -3,6 +3,8 @@ var urlParams = new URLSearchParams(queryString);
 var getId = urlParams.get('id');
 var getTerm = urlParams.get('term');
 
+var fileUrls = [];
+
 Courses = Courses.filter(function(el) {
     return el.id == getId;
 });
@@ -32,6 +34,7 @@ if(Course[getTerm].length == 0) {
 }
 else {
     Course[getTerm].forEach(function (course) {
+        fileUrls.push(course.url);
         var trimesterCode = course.code.toString().charAt(2);
         var trimesterName = "";
         if(trimesterCode == "1") {
@@ -54,6 +57,68 @@ else {
             </a>
         `
     });
+}
+
+
+document.getElementById("openToolMenu").onclick = function() {
+    document.getElementById("toolMenu").style.display = "block";
+}
+
+document.getElementById("toolMenu").onclick = function() {
+    document.getElementById("toolMenu").style.display = "none";
+}
+
+
+function GenerateZIP() {
+    var zip = new JSZip();
+    document.getElementById("zipBoxBackground").style.display = "block";
+    var count = 0;
+    document.getElementById("zipComplete").style.width = "0%";
+    var percentRate = 100/(fileUrls.length);
+    var currentPercent = percentRate;
+    fileUrls.forEach(function(url) {
+      fetch("https://nurulalamador.github.io/UIUQuestionBank/"+url)
+        .then(function(response) {
+          return response.blob();
+        })
+        .then(function(blob) {
+          // Get the filename from the URL
+          var filename = url.substring(url.lastIndexOf("/") + 1);
+
+          // Add the file to the zip
+          zip.file(filename, blob, { binary: true });
+
+          count++;
+          // Check if all files have been added to the zip
+          if (count === fileUrls.length) {
+            // Generate the zip and create a download link
+            zip.generateAsync({ type: "blob" })
+              .then(function(content) {
+                // Create a download link and trigger the download
+                var downloadLink = document.createElement("a");
+                downloadLink.href = URL.createObjectURL(content);
+                downloadLink.download = Course.title+" - "+termName+".zip";
+                downloadLink.click();
+              });
+            
+            setTimeout(function() {
+                document.getElementById("zipBoxBackground").style.display = "none";
+                showToast("ZIP download will start soon...");
+            },1000);
+          }
+          document.getElementById("zipComplete").style.width = currentPercent+"%";
+          currentPercent += percentRate; 
+        });
+    });
+};
+
+function showToast(string) {
+    var x = document.getElementById("snackbar");
+    if(x.className != "show") {
+        x.className = "show";
+        x.innerHTML = string;
+        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+    }
 }
 
 $("html").on("pointerdown", ".rippleButton, .rippleButtonBlack", function(evt) {
