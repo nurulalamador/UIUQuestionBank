@@ -195,7 +195,7 @@ a {
     vertical-align: middle;
     font-weight: bold;
     margin: 6px;
-    font-size: 17px;
+    font-size: 16px;
     text-transform: uppercase;
 }
 .trimesterButton .icon {
@@ -594,4 +594,20 @@ iframe {
     display: inline-block;
     vertical-align: middle;
     margin: 5px;
+}
+
+
+.dialogBoxBackground .dialogBox .meter {
+    width: calc(100% - 20px);
+    background-color: #DDDDDD;
+    height: 8px;
+    border-radius: 4px;
+    margin: 15px 10px;
+    overflow: hidden;
+}
+.dialogBoxBackground .dialogBox .meter .complete {
+    background-color: #ff6622;
+    border-radius: 4px;
+    width: 0%;
+    height: 100%;
 }
