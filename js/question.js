@@ -17,7 +17,7 @@ Question = Questions.filter(function(el) {
     return el.code == getTri;
 });
 
-var termName = getTerm = "mid" ? "Mid" : "Final";
+var termName = getTerm == "mid" ? "Mid" : "Final";
 
 var trimesterCode = getTri.charAt(2);
 var trimesterName = "";
