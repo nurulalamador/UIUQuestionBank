@@ -445,6 +445,12 @@ iframe {
     transform: translateY(-50%);
     text-align: left;
 }
+.dialogBox a {
+    font-weight: bold;
+}
+.dialogBox .minibr {
+    height: 6px;
+}
 .dialogBox .title {
     font-size: 20px;
     font-weight: bold;
