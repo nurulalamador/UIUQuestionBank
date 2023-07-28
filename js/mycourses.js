@@ -63,6 +63,9 @@ function deleteCourse(courseId) {
     fillUpCourseBoxContainer(bookmarkedCourse);
 }
 
+document.addEventListener('hashchange', function(){
+    window.location.href = 'index.html';
+});
 
 $("html").on("pointerdown", ".rippleButton, .rippleButtonBlack", function(evt) {
     var btn = $(evt.currentTarget);

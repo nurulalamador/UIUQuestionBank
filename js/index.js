@@ -105,6 +105,15 @@ document.getElementById("closeAboutBox").onclick = function() {
     document.getElementById("aboutBoxBackground").style.display = "none";
 }
 
+document.getElementById("openAcknowledgmentBox").onclick = function() {
+    document.getElementById("sidebarMenuBackground").style.display = "none";
+    document.getElementById("sidebarMenu").style.left = "-300px";
+    document.getElementById("acknowledgmentBoxBackground").style.display = "block";
+}
+document.getElementById("closeAcknowledgmentBox").onclick = function() {
+    document.getElementById("acknowledgmentBoxBackground").style.display = "none";
+}
+
 document.getElementById("openTrimesterBox").onclick = function() {
     document.getElementById("sidebarMenuBackground").style.display = "none";
     document.getElementById("sidebarMenu").style.left = "-300px";
