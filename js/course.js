@@ -18,6 +18,15 @@ document.getElementById("courseCode").innerHTML = Course.code;
 document.getElementById("mid").setAttribute("href", `questions.html?term=mid&id=${Course.id}`);
 document.getElementById("final").setAttribute("href", `questions.html?term=final&id=${Course.id}`);
 
+document.getElementById("back").onclick = function() {
+    if (document.referrer.indexOf(window.location.host) !== -1) {
+        window.history.back();
+    }
+    else { 
+        window.location.href = 'index.html';
+    }
+}
+
 $("html").on("pointerdown", ".rippleButton, .rippleButtonBlack", function(evt) {
     var btn = $(evt.currentTarget);
     var x = evt.pageX - btn.offset().left;
