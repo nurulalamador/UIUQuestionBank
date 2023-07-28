@@ -19,7 +19,7 @@ document.getElementById("mid").setAttribute("href", `questions.html?term=mid&id=
 document.getElementById("final").setAttribute("href", `questions.html?term=final&id=${Course.id}`);
 
 document.getElementById("back").onclick = function() {
-    if (document.referrer.indexOf(window.location.host) !== -1) {
+    if (window.history.length >= 2) {
         window.history.back();
     }
     else { 
