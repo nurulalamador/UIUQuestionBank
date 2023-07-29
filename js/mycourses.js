@@ -65,6 +65,7 @@ function deleteCourse(courseId) {
 
 document.addEventListener('hashchange', function(){
     window.location.href = 'index.html';
+    return false;
 });
 
 $("html").on("pointerdown", ".rippleButton, .rippleButtonBlack", function(evt) {
