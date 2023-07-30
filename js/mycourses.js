@@ -1,9 +1,11 @@
-window.onpopstate = function(event) {
-    if(localStorage.getItem("courseChanged") == "true") {
-        localStorage.setItem("courseChanged", "false");
-        location.reload();
-    }    
-}
+jQuery( document ).ready(function( $ ) {
+   $(window).on('popstate', function() {
+       if(localStorage.getItem("courseChanged") == "true") {
+            localStorage.setItem("courseChanged", "false");
+            location.reload();
+        } 
+   });
+ });
 
 function fillUpCourseBoxContainer(courses) {
     document.getElementById("courseBoxContainer").innerHTML = ""; 
