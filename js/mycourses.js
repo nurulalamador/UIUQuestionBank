@@ -2,7 +2,7 @@ jQuery( document ).ready(function( $ ) {
    $(window).on('popstate', function() {
        if(localStorage.getItem("courseChanged") == "true") {
             localStorage.setItem("courseChanged", "false");
-            location.reload();
+            location.reload(true);
         } 
    });
  });
