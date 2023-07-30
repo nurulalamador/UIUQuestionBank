@@ -1,3 +1,8 @@
+if(localStorage.getItem("courseChanged") == "true") {
+    localStorage.setItem("courseChanged", "false");
+    location.reload();
+}
+
 function fillUpCourseBoxContainer(courses) {
     document.getElementById("courseBoxContainer").innerHTML = ""; 
     if(courses.length == 0) {
@@ -61,12 +66,17 @@ function deleteCourse(courseId) {
     })
     localStorage.setItem("bookmarkedCourse", newBookmarkedCourseData);
     fillUpCourseBoxContainer(bookmarkedCourse);
+    localStorage.setItem("courseChanged", "true");
 }
 
-document.addEventListener('hashchange', function(){
-    window.location.href = 'index.html';
-    return false;
-});
+document.getElementById("back").onclick = function() {
+    if (window.history.length >= 2) {
+        window.history.back();
+    }
+    else { 
+        window.location.href = 'index.html';
+    }
+}
 
 $("html").on("pointerdown", ".rippleButton, .rippleButtonBlack", function(evt) {
     var btn = $(evt.currentTarget);

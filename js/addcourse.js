@@ -60,10 +60,20 @@ function addCourse(courseId) {
             var newBookmarkedCourseData = currentBookmarkedCourseData+","+courseId;
         }
         localStorage.setItem("bookmarkedCourse",newBookmarkedCourseData);
-        location.href = 'mycourses.html';
+        localStorage.setItem("courseChanged", "true");
+        window.history.back();
     }
     else {
         showToast("This course is already added!")
+    }
+}
+
+document.getElementById("back").onclick = function() {
+    if (window.history.length >= 2) {
+        window.history.back();
+    }
+    else { 
+        window.location.href = 'index.html';
     }
 }
 
