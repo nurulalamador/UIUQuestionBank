@@ -61,6 +61,7 @@ function addCourse(courseId) {
         }
         localStorage.setItem("bookmarkedCourse",newBookmarkedCourseData);
         localStorage.setItem("courseChanged", "true");
+        localStorage.setItem("courseChangedIndex", "true");
         window.history.back();
     }
     else {
