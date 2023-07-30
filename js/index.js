@@ -1,10 +1,12 @@
+window.addEventListener("pageshow", function ( event ) {
+    if(localStorage.getItem("courseChanged") == "true") {
+        localStorage.setItem("courseChanged", "false");
+        location.reload(true);
+    }
+});
+
 if(!navigator.onLine) {
     document.getElementById("noConnectionBoxBackground").style.display = "block";
-}
-
-if(localStorage.getItem("courseChanged") == "true") {
-    localStorage.setItem("courseChanged", "false");
-    location.reload();
 }
 
 document.getElementById("reloadApp").onclick = function() {
