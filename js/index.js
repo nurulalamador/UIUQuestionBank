@@ -1,6 +1,6 @@
 window.addEventListener("pageshow", function ( event ) {
-    if(localStorage.getItem("courseChanged") == "true") {
-        localStorage.setItem("courseChanged", "false");
+    if(localStorage.getItem("courseChangedIndex") == "true") {
+        localStorage.setItem("courseChangedIndex", "false");
         location.reload(true);
     }
 });
