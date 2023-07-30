@@ -1,6 +1,8 @@
-if(localStorage.getItem("courseChanged") == "true") {
-    localStorage.setItem("courseChanged", "false");
-    location.reload();
+window.onpopstate = function(event) {
+    if(localStorage.getItem("courseChanged") == "true") {
+        localStorage.setItem("courseChanged", "false");
+        location.reload();
+    }    
 }
 
 function fillUpCourseBoxContainer(courses) {
