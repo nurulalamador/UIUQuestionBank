@@ -68,7 +68,7 @@ function deleteCourse(courseId) {
     })
     localStorage.setItem("bookmarkedCourse", newBookmarkedCourseData);
     fillUpCourseBoxContainer(bookmarkedCourse);
-    localStorage.setItem("courseChanged", "true");
+    localStorage.setItem("courseChangedIndex", "true");
 }
 
 document.getElementById("back").onclick = function() {
