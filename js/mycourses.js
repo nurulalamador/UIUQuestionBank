@@ -1,8 +1,9 @@
-var perfEntries = performance.getEntriesByType("navigation");
-
-if (perfEntries[0].type === "back_forward") {
-    location.reload();
-}
+window.addEventListener("pageshow", function ( event ) {
+    if(localStorage.getItem("courseChanged") == "true") {
+        localStorage.setItem("courseChanged", "false");
+        location.reload(true);
+    }
+});
 
 function fillUpCourseBoxContainer(courses) {
     document.getElementById("courseBoxContainer").innerHTML = ""; 
