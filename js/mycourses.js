@@ -1,11 +1,8 @@
-jQuery( document ).ready(function( $ ) {
-   $(window).on('popstate', function() {
-       if(localStorage.getItem("courseChanged") == "true") {
-            localStorage.setItem("courseChanged", "false");
-            location.reload(true);
-        } 
-   });
- });
+var perfEntries = performance.getEntriesByType("navigation");
+
+if (perfEntries[0].type === "back_forward") {
+    location.reload();
+}
 
 function fillUpCourseBoxContainer(courses) {
     document.getElementById("courseBoxContainer").innerHTML = ""; 
