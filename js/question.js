@@ -69,7 +69,14 @@ document.getElementById("toolMenu").onclick = function() {
     document.getElementById("toolMenu").style.display = "none";
 }
 
-
+document.getElementById("back").onclick = function() {
+    if (window.history.length >= 2) {
+        window.history.back();
+    }
+    else { 
+        window.location.href = 'index.html';
+    }
+}
 
 $("html").on("pointerdown", ".rippleButton, .rippleButtonBlack", function(evt) {
     var btn = $(evt.currentTarget);
