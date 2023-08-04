@@ -35,19 +35,65 @@ var trimesterName = trimesterName+" 20"+getTri.charAt(0)+getTri.charAt(1);
 document.getElementById("titleDiv").innerHTML = termName+" - "+trimesterName;
 document.getElementById("semiTitleDiv").innerHTML = Course.title;
 
+
+function fetchPDF(urlToPDF) {
+    return new Promise((resolve) => {
+        fetch(urlToPDF)
+            .then((resolve) => resolve.blob())
+            .then((blob) => {
+                resolve(blob.arrayBuffer());
+            })
+    })
+}
+
+document.getElementById("reloadApp").onclick = function() {
+    location.reload();
+}
+
 try {
     var adobeDCView = new AdobeDC.View({clientId: "adb7ebc00d5649b184f5e4ac5e73acce", divId: "questionHere"});
     adobeDCView.previewFile({
-        content:{location: {url: Question[0].url}},
+        content: { promise: fetchPDF(Question[0].url) },
         metaData:{fileName: trimesterName}
-    }, {showAnnotationTools: false, showDownloadPDF: false, showPrintPDF: false});
+    }, {showAnnotationTools: false, showDownloadPDF: false, showPrintPDF: false });
+
+    adobeDCView.registerCallback(
+        AdobeDC.View.Enum.CallbackType.EVENT_LISTENER,
+        function (event) {
+            if (event.type == "APP_RENDERING_DONE") {
+                document.getElementById("loading").style.display = "none";
+            }
+            if (event.type == "APP_RENDERING_FAILED") {
+                document.getElementById("errorBoxBackground").style.display = "block";
+            }
+        }, {
+            listenOn: [AdobeDC.View.Enum.Events.APP_RENDERING_DONE, AdobeDC.View.Enum.Events.APP_RENDERING_FAILED],
+            enableFilePreviewEvents: true
+        }
+    );
+    
 } catch (error) {
     document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
         var adobeDCView = new AdobeDC.View({clientId: "adb7ebc00d5649b184f5e4ac5e73acce", divId: "questionHere"});
         adobeDCView.previewFile({
-            content:{location: {url: Question[0].url}},
+            content: { promise: fetchPDF(Question[0].url) },
             metaData:{fileName: trimesterName}
-        }, {enableLinearization: true, showAnnotationTools: false, showDownloadPDF: false, showPrintPDF: false});
+        }, {showAnnotationTools: false, showDownloadPDF: false, showPrintPDF: false });
+
+        adobeDCView.registerCallback(
+            AdobeDC.View.Enum.CallbackType.EVENT_LISTENER,
+            function (event) {
+                if (event.type == "APP_RENDERING_DONE") {
+                    document.getElementById("loading").style.display = "none";
+                }
+                if (event.type == "APP_RENDERING_FAILED") {
+                    document.getElementById("errorBoxBackground").style.display = "block";
+                }
+            }, {
+                listenOn: [AdobeDC.View.Enum.Events.APP_RENDERING_DONE, AdobeDC.View.Enum.Events.APP_RENDERING_FAILED],
+                enableFilePreviewEvents: true
+            }
+        );
     });
 }
 
