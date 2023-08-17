@@ -102,7 +102,7 @@ document.getElementById("openToolMenu").onclick = function() {
     document.getElementById("toolMenu").style.display = "block";
 }
 
-document.getElementById("downloadPDF").href = "${Question[0].url}";
+document.getElementById("downloadPDF").href = Question[0].url;
     
 document.getElementById("downloadLink").innerHTML = `
         <a href="${Question[0].url}" download="${Course.title+" - "+trimesterName}.pdf">
