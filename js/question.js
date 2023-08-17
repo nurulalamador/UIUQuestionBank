@@ -53,7 +53,7 @@ document.getElementById("reloadApp").onclick = function() {
 try {
     var adobeDCView = new AdobeDC.View({clientId: "adb7ebc00d5649b184f5e4ac5e73acce", divId: "questionHere"});
     adobeDCView.previewFile({
-        content: { promise: fetchPDF(Question[0].url) },
+        content:{location: {url: Question[0].url}},
         metaData:{fileName: trimesterName}
     }, {showAnnotationTools: false, showDownloadPDF: false, showPrintPDF: false });
 
@@ -76,7 +76,7 @@ try {
     document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
         var adobeDCView = new AdobeDC.View({clientId: "adb7ebc00d5649b184f5e4ac5e73acce", divId: "questionHere"});
         adobeDCView.previewFile({
-            content: { promise: fetchPDF(Question[0].url) },
+            content:{location: {url: Question[0].url}},
             metaData:{fileName: trimesterName}
         }, {showAnnotationTools: false, showDownloadPDF: false, showPrintPDF: false });
 
@@ -102,6 +102,8 @@ document.getElementById("openToolMenu").onclick = function() {
     document.getElementById("toolMenu").style.display = "block";
 }
 
+document.getElementById("downloadPDF").href = "${Question[0].url}";
+    
 document.getElementById("downloadLink").innerHTML = `
         <a href="${Question[0].url}" download="${Course.title+" - "+trimesterName}.pdf">
             <div class="tool rippleButtonBlack">
