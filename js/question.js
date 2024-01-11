@@ -113,7 +113,7 @@ document.getElementById("openToolMenu").onclick = function() {
 document.getElementById("downloadPDF").href = pdfUrl;
     
 document.getElementById("downloadLink").innerHTML = `
-        <a href="${pdfUrl.url}" download="${Course.title+" - "+trimesterName}.pdf">
+        <a href="${pdfUrl}" download="${Course.title+" - "+termName+" - "+trimesterName}.pdf">
             <div class="tool rippleButtonBlack">
                 <div class="icon"><i class="fas fa-file-pdf"></i></div>
                 <div class="name">Download PDF</div>
