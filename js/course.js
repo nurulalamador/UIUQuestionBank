@@ -13,10 +13,21 @@ document.getElementById("semiTitleDiv").innerHTML = Course.title;
 document.getElementById("courseInfoBox").style.backgroundImage = Course.css;
 document.getElementById("iconOne").style.backgroundImage = Course.css;
 document.getElementById("iconTwo").style.backgroundImage = Course.css;
+document.getElementById("iconThree").style.backgroundImage = Course.css;
+document.getElementById("iconFour").style.backgroundImage = Course.css;
 document.getElementById("courseTitle").innerHTML = Course.title;
 document.getElementById("courseCode").innerHTML = Course.code;
 document.getElementById("mid").setAttribute("href", `questions.html?term=mid&id=${Course.id}`);
 document.getElementById("final").setAttribute("href", `questions.html?term=final&id=${Course.id}`);
+
+if(Course.midSolve != "null") {
+    document.getElementById("disableMid").remove();
+    document.getElementById("midSolve").setAttribute("href", `question.html?id=${Course.id}&term=mid&tri=solve`);
+}
+if(Course.finalSolve != "null") {
+    document.getElementById("disableFinal").remove();
+    document.getElementById("finalSolve").setAttribute("href", `question.html?id=${Course.id}&term=final&tri=solve`);
+}
 
 document.getElementById("back").onclick = function() {
     if (window.history.length >= 2) {
@@ -42,3 +53,20 @@ $("html").on("pointerup", ".rippleButton, .rippleButtonBlack", function(evt) {
         $('.ripple').remove();
     }, 500);
 });
+
+
+function showToast(string) {
+    var x = document.getElementById("snackbar");
+    if(x.className != "show") {
+        x.className = "show";
+        x.innerHTML = string;
+        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+    }
+}
+
+document.getElementById("disableMid").onclick = function() {
+    showToast("Sorry, Mid-Term Solution of this course is still not completed!");
+}
+document.getElementById("disableFinal").onclick = function() {
+    showToast("Sorry, Final Solution of this course is still not completed!");
+}

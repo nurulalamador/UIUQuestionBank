@@ -19,7 +19,7 @@ Trimesters.forEach(function(e) {
 
 if(localStorage.getItem("bookmarkedCourseAdded") == null) {
     localStorage.setItem("bookmarkedCourse", "MAT1151,CSE1115,CSE1325");
-    document.getElementById("trimesterBoxBackground").style.display = "block";
+    localStorage.setItem("bookmarkedCourseAdded", "true");
 }
 
 function fillUpCourseBoxContainer(courses, length) {
@@ -132,7 +132,6 @@ document.getElementById("selectTrimester").onclick = function() {
 document.getElementById("selectTrimester").onclick = function() {
     var newBookmarkedCourse = document.getElementById("trimesterList").value;
     localStorage.setItem("bookmarkedCourse", newBookmarkedCourse);
-    localStorage.setItem("bookmarkedCourseAdded", "true");
     location.reload();
 }
 

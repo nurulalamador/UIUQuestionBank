@@ -11,30 +11,38 @@ Courses = Courses.filter(function(el) {
 
 var Course = Courses[0];
 
-Questions = Course[getTerm];
-
-Question = Questions.filter(function(el) {
-    return el.code == getTri;
-});
-
 var termName = getTerm == "mid" ? "Mid" : "Final";
-
 var trimesterCode = getTri.charAt(2);
 var trimesterName = "";
-if(trimesterCode == "1") {
-    trimesterName = "Spring";
-}
-else if(trimesterCode == "2") {
-    trimesterName = "Summer";
+var pdfUrl = "";
+
+if(getTri == "solve") {
+    trimesterName = "Solution";
+    pdfUrl = Course[getTerm+"Solve"];
+    console.log(pdfUrl);
 }
 else {
-    trimesterName = "Fall"
-};
-var trimesterName = trimesterName+" 20"+getTri.charAt(0)+getTri.charAt(1);
+    Questions = Course[getTerm];
+    Question = Questions.filter(function(el) {
+        return el.code == getTri;
+    });
+
+    if(trimesterCode == "1") {
+        trimesterName = "Spring";
+    }
+    else if(trimesterCode == "2") {
+        trimesterName = "Summer";
+    }
+    else {
+        trimesterName = "Fall"
+    };
+    trimesterName = trimesterName+" 20"+getTri.charAt(0)+getTri.charAt(1);
+
+    pdfUrl = Question[0].url;
+}
 
 document.getElementById("titleDiv").innerHTML = termName+" - "+trimesterName;
 document.getElementById("semiTitleDiv").innerHTML = Course.title;
-
 
 function fetchPDF(urlToPDF) {
     return new Promise((resolve) => {
@@ -53,7 +61,7 @@ document.getElementById("reloadApp").onclick = function() {
 try {
     var adobeDCView = new AdobeDC.View({clientId: "adb7ebc00d5649b184f5e4ac5e73acce", divId: "questionHere"});
     adobeDCView.previewFile({
-        content:{location: {url: Question[0].url}},
+        content:{location: {url: pdfUrl}},
         metaData:{fileName: trimesterName}
     }, {showAnnotationTools: false, showDownloadPDF: false, showPrintPDF: false });
 
@@ -76,7 +84,7 @@ try {
     document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
         var adobeDCView = new AdobeDC.View({clientId: "adb7ebc00d5649b184f5e4ac5e73acce", divId: "questionHere"});
         adobeDCView.previewFile({
-            content:{location: {url: Question[0].url}},
+            content:{location: {url: pdfUrl}},
             metaData:{fileName: trimesterName}
         }, {showAnnotationTools: false, showDownloadPDF: false, showPrintPDF: false });
 
@@ -102,10 +110,10 @@ document.getElementById("openToolMenu").onclick = function() {
     document.getElementById("toolMenu").style.display = "block";
 }
 
-document.getElementById("downloadPDF").href = Question[0].url;
+document.getElementById("downloadPDF").href = pdfUrl;
     
 document.getElementById("downloadLink").innerHTML = `
-        <a href="${Question[0].url}" download="${Course.title+" - "+trimesterName}.pdf">
+        <a href="${pdfUrl.url}" download="${Course.title+" - "+trimesterName}.pdf">
             <div class="tool rippleButtonBlack">
                 <div class="icon"><i class="fas fa-file-pdf"></i></div>
                 <div class="name">Download PDF</div>
