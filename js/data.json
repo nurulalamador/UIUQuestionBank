@@ -5,8 +5,8 @@
         "code": "ENG 1011",
         "abbr": "English 1",
         "trimester": 1,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "rgb(69, 179, 224) ",
+        "colorTwo": "rgb(102, 51, 153)",
         "css":"linear-gradient(109.6deg, rgb(69, 179, 224) 11.2%, rgb(102, 51, 153) 100.2%)",
         "mid": [
             {
@@ -29,8 +29,8 @@
         "code": "ENG 1013",
         "abbr": "English 2",
         "trimester": 2,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "rgb(102, 64, 123)",
+        "colorTwo": "rgb(251, 168, 214)",
         "css":"linear-gradient(89.9deg, rgb(102, 64, 123) 0%, rgb(252, 41, 119) 100%, rgb(251, 168, 214) 100.1%)",
         "mid": [
             {
@@ -57,8 +57,8 @@
         "code": "CSE 2213",
         "abbr": "DM",
         "trimester": 1,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "#fda34b",
+        "colorTwo": "#7046aa",
         "css":"linear-gradient(-15deg, #fda34b 0%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 100%)",
         "mid": [
             {
@@ -161,8 +161,8 @@
         "code": "BDS 1201",
         "abbr": "BDS",
         "trimester": 1,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "#00880b",
+        "colorTwo": "#ed0000",
         "css":"linear-gradient(43deg, #00880b 0%, #5bc850 30%, #ff3e07 66%, #ed0000 100%)",
         "mid": [
             {
@@ -197,8 +197,8 @@
         "code": "CSE 1111",
         "abbr": "SPL",
         "trimester": 2,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "rgb(109, 118, 150)",
+        "colorTwo": "rgb(237, 181, 121)",
         "css": "linear-gradient(102.2deg, rgb(109, 118, 150) 10%, rgb(89, 72, 79) 20%, rgb(69, 92, 79) 40%, rgb(204, 85, 67) 70%, rgb(237, 181, 121) 90%, rgb(219, 230, 175) 95%)",
         "mid": [
             {
@@ -313,8 +313,8 @@
         "code": "CSE 1112",
         "abbr": "SPL Lab",
         "trimester": 2,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "rgb(255, 7, 7)",
+        "colorTwo": "rgb(255, 255, 5)",
         "css":"linear-gradient(113.9deg, rgb(255, 7, 7) -4.5%, rgb(255, 255, 5) 98.8%)",
         "mid": [
 
@@ -346,8 +346,8 @@
         "code": "MATH 1151",
         "abbr": "Calculus",
         "trimester": [2,3],
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "rgb(252, 176, 69)",
+        "colorTwo": "rgb(33, 25, 180)",
         "css":"linear-gradient(109.6deg, rgb(252, 176, 69) 20%, rgb(253, 29, 29) 55%, rgb(33, 25, 180) 100%)",
         "mid": [
             {
@@ -430,8 +430,8 @@
         "code": "MATH 2183",
         "abbr": "Linear Algebra",
         "trimester": 4,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "rgb(205, 241, 44)",
+        "colorTwo": "#00AA00",
         "css":"radial-gradient(circle at right, rgb(205, 241, 44) 5%, rgb(0, 209, 117), #00AA00 80%)",
         "mid": [
             {
@@ -502,8 +502,8 @@
         "code": "CSE 1115",
         "trimester": 3,
         "abbr": "OOP",
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "rgb(12, 85, 141)",
+        "colorTwo": "rgb(249, 140, 69)",
         "css":"radial-gradient(circle at right, rgb(12, 85, 141) 15%, rgb(205, 181, 93) 40%, rgb(249, 140, 69) 60%, rgb(12, 73, 116) 85%)",
         "mid": [
             {
@@ -654,8 +654,8 @@
         "code": "CSE 1325",
         "abbr": "DLD",
         "trimester": 3,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "rgb(241, 78, 163)",
+        "colorTwo": "rgb(26, 243, 158)",
         "css":"radial-gradient(circle at 1.5% 2.8%, rgb(241, 78, 163) 30%, rgb(26, 243, 158) 80%, rgb(69, 237, 244) 95%)",
         "mid": [
             {
@@ -794,8 +794,8 @@
         "code": "EEE 2113",
         "abbr": "EC",
         "trimester": 4,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "#4fb576",
+        "colorTwo": "#4c7788",
         "css":"linear-gradient(10deg, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%)",
         "mid": [
             {
@@ -906,8 +906,8 @@
         "code": "PHY 2105",
         "abbr": "Physics",
         "trimester": 4,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "#580864",
+        "colorTwo": "#90eef3",
         "css":"linear-gradient(to right top, #580864, #523083, #454c9e, #3166b5, #137fc6, #0192d1, #17a5d9, #35b8e0, #54cae6, #72dcec, #90eef3, #aefffa)",
         "mid": [
             {
@@ -990,8 +990,8 @@
         "code": "SOC 2101",
         "abbr": "SOC",
         "trimester": 5,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "hsl(203deg 99% 55%)",
+        "colorTwo": "hsl(290deg 98% 77%)",
         "css":"linear-gradient( 40deg, hsl(203deg 99% 55%) 0%, hsl(215deg 82% 53%) 33%, hsl(252deg 100% 41%) 65%, hsl(271deg 75% 65%) 86%, hsl(290deg 98% 77%) 100% )",
         "mid": [
             {
@@ -1046,8 +1046,8 @@
         "code": "CSE 2233",
         "abbr": "TOC",
         "trimester": 5,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "#640808",
+        "colorTwo": "#ff98ce",
         "css":"linear-gradient(to left bottom, #640808, #780914, #8d091e, #a2082a, #b80537, #c81c49, #d72c5b, #e53b6e, #ee5588, #f56ca1, #fa82b8, #ff98ce)",
         "mid": [
             {
@@ -1162,8 +1162,8 @@
         "code": "MATH 2201",
         "abbr": "Calculus",
         "trimester": 5,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "hsl(270deg 100% 20%)",
+        "colorTwo": "hsl(46deg 86% 57%)",
         "css":"linear-gradient( 110deg, hsl(270deg 100% 20%) 0%, hsl(171deg 57% 39%) 43%, hsl(163deg 76% 49%) 62%, hsl(145deg 78% 68%) 76%, hsl(79deg 56% 66%) 88%, hsl(46deg 86% 57%) 100% )",
         "mid": [
             {
@@ -1226,8 +1226,8 @@
         "code": "CSE 2215",
         "abbr": "DSA 1",
         "trimester": 5,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "rgb(36, 9, 119)",
+        "colorTwo": "rgb(181, 0, 237)",
         "css":"radial-gradient(circle at top right, rgb(36, 9, 119) 30%, rgb(72, 7, 149) 50%, rgb(109, 5, 178) 60%, rgb(145, 2, 208), rgb(181, 0, 237))",
         "mid": [
             {
@@ -1407,8 +1407,8 @@
         "code": "CSE 2217",
         "abbr": "DSA 2",
         "trimester": 6,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "#177a1b",
+        "colorTwo": "#5fccfb",
         "css":"linear-gradient(to right top, #177a1b, #308e33, #44a24a, #58b661, #6ccb78, #61d48f, #57dda6, #4fe5bc, #21e1d5, #02dce9, #35d4f6, #5fccfb)",
         "mid": [
             {
@@ -1543,8 +1543,8 @@
         "code": "MATH 2205",
         "abbr": "PS",
         "trimester": 6,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "rgb(103,30,117)",
+        "colorTwo": "rgb(252,76,2)",
         "css":"linear-gradient(-10deg, rgba(103,30,117,1) 11.2%, rgba(252,76,2,1) 91.1% )",
         "mid": [
             {
@@ -1611,9 +1611,9 @@
         "code": "CSE 3313",
         "abbr": "CA",
         "trimester": 2,
-        "colorOne": "blue",
-        "colorTwo": "green",
-        "css":"radial-gradient(at left top, rgba(204, 133, 93, 1.0), rgba(51, 126, 212, 1.0))",
+        "colorOne": "rgb(204, 133, 93)",
+        "colorTwo": "rgb(51, 126, 212)",
+        "css":"radial-gradient(at left top, rgb(204, 133, 93), rgb(51, 126, 212))",
         "mid": [
             {
                 "code": 172,
@@ -1719,8 +1719,8 @@
         "code": "CSE 3811",
         "abbr": "AI",
         "trimester": 7,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "rgb(153, 27, 27)",
+        "colorTwo": "#FFFF00",
         "css":"linear-gradient(130deg, rgb(153, 27, 27) 25%, rgb(202, 138, 4), rgb(234, 179, 8), #FFFF00)",
         "mid": [
             {
@@ -1855,9 +1855,9 @@
         "code": "CSE 4325",
         "abbr": "MM",
         "trimester": 8,
-        "colorOne": "blue",
-        "colorTwo": "green",
-        "css":"linear-gradient( 111.1deg,  rgba(0,40,70,1) -4.8%, rgba(255,115,115,1) 82.7%, rgba(255,175,123,1) 97.2% )",
+        "colorOne": "rgb(0,40,70)",
+        "colorTwo": "rgb(255,175,123)",
+        "css":"linear-gradient(111.1deg, rgb(0,40,70) -4.8%, rgba(255,115,115,1) 82.7%, rgb(255,175,123) 97.2% )",
         "mid": [
             {
                 "code": 193,
@@ -1903,8 +1903,8 @@
         "code": "CSE 3711",
         "abbr": "CN",
         "trimester": 8,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "hsl(56deg 100% 20%)",
+        "colorTwo": "hsl(52deg 100% 83%)",
         "css":"linear-gradient( 65deg, hsl(56deg 100% 20%) 0%, hsl(55deg 100% 33%) 22%, hsl(55deg 100% 42%) 46%,  hsl(55deg 100% 50%) 70%, hsl(52deg 100% 83%) 92%, hsl(51deg 100% 91%) 98%, hsl(0deg 0% 100%) 100%)",
         "mid": [
             {
@@ -1991,8 +1991,8 @@
         "code": "CSE 3411",
         "abbr": "SAD",
         "trimester": 8,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "hsl(328deg 100% 56%)",
+        "colorTwo": "hsl(50deg 100% 67%)",
         "css":"linear-gradient( 70deg, hsl(328deg 100% 56%) 0%, hsl(5deg 100% 54%) 48%, hsl(41deg 100% 51%) 73%, hsl(50deg 100% 67%) 89%, hsl(58deg 100% 84%) 100% )",
         "mid": [
             {
@@ -2047,8 +2047,8 @@
         "code": "BIO 3105",
         "abbr": "Biology",
         "trimester": 9,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "rgb(7, 3, 98)",
+        "colorTwo": "rgb(239, 186, 83)",
         "css":"linear-gradient(68.2deg, rgb(7, 3, 98) -0.1%, rgb(179, 26, 132) 47.7%, rgb(239, 186, 83) 100.2%)",
         "mid": [
             {
@@ -2087,9 +2087,9 @@
         "code": "CSE 3421",
         "abbr": "SWE",
         "trimester": 9,
-        "colorOne": "blue",
-        "colorTwo": "green",
-        "css":"linear-gradient(-165deg,  rgba(255,243,110,1) 16.9%, rgba(30,204,214,1) 55.1%, rgba(5,54,154,1) 90.7% )",
+        "colorOne": "rgb(255,243,110)",
+        "colorTwo": "rgb(5,54,154)",
+        "css":"linear-gradient(-165deg, rgb(255,243,110) 16.9%, rgba(30,204,214,1) 55.1%, rgb(5,54,154) 90.7% )",
         "mid": [
             {
                 "code": 192,
@@ -2135,8 +2135,8 @@
         "code": "CSE 3715",
         "abbr": "DC",
         "trimester": 10,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "#AA0000",
+        "colorTwo": "#FFFF00",
         "css":"linear-gradient(30deg, #AA0000, #FF0000, #FF6622, #FFFF00)",
         "mid": [
             {
@@ -2187,8 +2187,8 @@
         "code": "IPE 3401",
         "abbr": "IOM",
         "trimester": 10,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "hsl(134deg 100% 19%)",
+        "colorTwo": "hsl(79deg 100% 56%)",
         "css":"linear-gradient( 160deg, hsl(134deg 100% 19%) 8%, hsl(130deg 100% 34%) 53%, hsl(123deg 100% 49%) 73%, hsl(90deg 99% 51%) 89%, hsl(79deg 100% 56%) 100% )",
         "mid": [
             {
@@ -2243,8 +2243,8 @@
         "code": " CSE 4587",
         "abbr": "CC",
         "trimester": 10,
-        "colorOne": "blue",
-        "colorTwo": "green",
+        "colorOne": "hsl(164deg 54% 46%)",
+        "colorTwo": "hsl(99deg 90% 88%)",
         "css":"linear-gradient( 75deg, hsl(178deg 100% 26%) 0%, hsl(164deg 54% 46%) 56%, hsl(153deg 74% 62%) 76%, hsl(143deg 100% 76%) 88%, hsl(127deg 97% 85%) 97%, hsl(99deg 90% 88%) 101% )",
         "mid": [
             {
