@@ -990,8 +990,8 @@
         "code": "SOC 2101",
         "abbr": "SOC",
         "trimester": 5,
-        "colorOne": "hsl(203deg 99% 55%)",
-        "colorTwo": "hsl(290deg 98% 77%)",
+        "colorOne": "#1BA7FE",
+        "colorTwo": "#EB8BFE",
         "css":"linear-gradient( 40deg, hsl(203deg 99% 55%) 0%, hsl(215deg 82% 53%) 33%, hsl(252deg 100% 41%) 65%, hsl(271deg 75% 65%) 86%, hsl(290deg 98% 77%) 100% )",
         "mid": [
             {
@@ -1162,8 +1162,8 @@
         "code": "MATH 2201",
         "abbr": "Calculus",
         "trimester": 5,
-        "colorOne": "hsl(270deg 100% 20%)",
-        "colorTwo": "hsl(46deg 86% 57%)",
+        "colorOne": "#330066",
+        "colorTwo": "#F0C433",
         "css":"linear-gradient( 110deg, hsl(270deg 100% 20%) 0%, hsl(171deg 57% 39%) 43%, hsl(163deg 76% 49%) 62%, hsl(145deg 78% 68%) 76%, hsl(79deg 56% 66%) 88%, hsl(46deg 86% 57%) 100% )",
         "mid": [
             {
@@ -1903,8 +1903,8 @@
         "code": "CSE 3711",
         "abbr": "CN",
         "trimester": 8,
-        "colorOne": "hsl(56deg 100% 20%)",
-        "colorTwo": "hsl(52deg 100% 83%)",
+        "colorOne": "#665F00",
+        "colorTwo": "#FFF3A8",
         "css":"linear-gradient( 65deg, hsl(56deg 100% 20%) 0%, hsl(55deg 100% 33%) 22%, hsl(55deg 100% 42%) 46%,  hsl(55deg 100% 50%) 70%, hsl(52deg 100% 83%) 92%, hsl(51deg 100% 91%) 98%, hsl(0deg 0% 100%) 100%)",
         "mid": [
             {
@@ -1991,8 +1991,8 @@
         "code": "CSE 3411",
         "abbr": "SAD",
         "trimester": 8,
-        "colorOne": "hsl(328deg 100% 56%)",
-        "colorTwo": "hsl(50deg 100% 67%)",
+        "colorOne": "#FF1F96",
+        "colorTwo": "#FFE357",
         "css":"linear-gradient( 70deg, hsl(328deg 100% 56%) 0%, hsl(5deg 100% 54%) 48%, hsl(41deg 100% 51%) 73%, hsl(50deg 100% 67%) 89%, hsl(58deg 100% 84%) 100% )",
         "mid": [
             {
@@ -2187,8 +2187,8 @@
         "code": "IPE 3401",
         "abbr": "IOM",
         "trimester": 10,
-        "colorOne": "hsl(134deg 100% 19%)",
-        "colorTwo": "hsl(79deg 100% 56%)",
+        "colorOne": "#006117",
+        "colorTwo": "#B8FF1F",
         "css":"linear-gradient( 160deg, hsl(134deg 100% 19%) 8%, hsl(130deg 100% 34%) 53%, hsl(123deg 100% 49%) 73%, hsl(90deg 99% 51%) 89%, hsl(79deg 100% 56%) 100% )",
         "mid": [
             {
@@ -2243,8 +2243,8 @@
         "code": " CSE 4587",
         "abbr": "CC",
         "trimester": 10,
-        "colorOne": "hsl(164deg 54% 46%)",
-        "colorTwo": "hsl(99deg 90% 88%)",
+        "colorOne": "#36B593",
+        "colorTwo": "#D8FCC5",
         "css":"linear-gradient( 75deg, hsl(178deg 100% 26%) 0%, hsl(164deg 54% 46%) 56%, hsl(153deg 74% 62%) 76%, hsl(143deg 100% 76%) 88%, hsl(127deg 97% 85%) 97%, hsl(99deg 90% 88%) 101% )",
         "mid": [
             {
