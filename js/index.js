@@ -164,3 +164,26 @@ $("html").on("pointerup", ".rippleButton, .rippleButtonBlack", function(evt) {
         $('.ripple').remove();
     }, 500);
 });
+
+
+fetch("js/ayat.json?new")
+.then(res => res.json())
+.then(function (res) {
+    var randomInteger = Math.floor(Math.random() * 100);
+    var randomAyat = randomInteger%8;
+    document.getElementById("ayatBoxHere").innerHTML = `
+    <div class="ayatBox">
+        <div class="arabicAyat">${res[randomAyat].ayatAR}</div>
+        <div class="ayatTranslation">
+            <div class="englishAyat">${res[randomAyat].ayatEN}</div>
+            <div class="englishAyat">${res[randomAyat].ayatBN}</div>
+            <div class="surahName">
+                <div class="title">${res[randomAyat].surah}</div>
+                <div class="semiTitle">Ayat ${res[randomAyat].ayatNo}</div>
+            </div> 
+        </div>
+    </div>
+    `;
+})
+.catch(function() {
+});
