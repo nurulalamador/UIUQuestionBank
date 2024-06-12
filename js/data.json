@@ -569,6 +569,14 @@
             {
                 "code": 232,
                 "url": "question/CSE1115/mid/CSE1115_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE1115/mid/CSE1115_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE1115/mid/CSE1115_Mid_241.pdf"
             }
         ],
         "final": [
@@ -645,7 +653,7 @@
                 "url": "question/CSE1115/final/CSE1115_Final_233.pdf"
             }
         ],
-        "midSolve": "null",
+        "midSolve": "question/CSE1115/mid/CSE1115_Mid_Solution.pdf",
         "finalSolve": "null"
     },
     {
@@ -961,11 +969,11 @@
                 "url": "question/PHY2105/final/PHY2105_Final_212.pdf"
             },
             {
-                "code": "223-A",
+                "code": "213-A",
                 "url": "question/PHY2105/final/PHY2105_Final_213_A.pdf"
             },
             {
-                "code": "223-B",
+                "code": "213-B",
                 "url": "question/PHY2105/final/PHY2105_Final_213_B.pdf"
             },
             {
@@ -973,12 +981,16 @@
                 "url": "question/PHY2105/final/PHY2105_Final_221.pdf"
             },
             {
-                "code": 223,
-                "url": "question/PHY2105/final/PHY2105_Final_223.pdf"
-            },
-            {
                 "code": 231,
                 "url": "question/PHY2105/final/PHY2105_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/PHY2105/final/PHY2105_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/PHY2105/final/PHY2105_Final_233.pdf"
             }
         ],
         "midSolve": "null",

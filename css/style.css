@@ -109,6 +109,7 @@ a {
     font-family: sans-serif;
     font-size: 15px;
     margin: 3px;
+    width: calc(100% - 40px);
 }
 .searchBox .icon {
     display: inline-block;

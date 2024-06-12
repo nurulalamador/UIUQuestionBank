@@ -1,3 +1,5 @@
+var Courses = [];
+
 window.addEventListener("pageshow", function ( event ) {
     if(localStorage.getItem("courseChanged") == "true") {
         localStorage.setItem("courseChanged", "false");
@@ -41,17 +43,28 @@ function fillUpCourseBoxContainer(courses) {
 bookmarkedCourseData = localStorage.getItem("bookmarkedCourse");
 bookmarkedCourse = [];
 
-if(bookmarkedCourseData != '') {
-    bookmarkedCourseData = bookmarkedCourseData.split(",");
-    bookmarkedCourseData.forEach(function(code) {
-        matchedCourse = Courses.filter(function(el) {
-            return el.id.includes(code);
+function setBookmark(courses) {
+    if(bookmarkedCourseData != ""){
+        bookmarkedCourseData = bookmarkedCourseData.split(",");
+        bookmarkedCourseData.forEach(function(code) {
+            matchedCourse = courses.filter(function(el) {
+                return el.id.includes(code);
+            });
+            bookmarkedCourse.push(matchedCourse[0]);
         });
-        bookmarkedCourse.push(matchedCourse[0]);
-    });
+    }
+
+    fillUpCourseBoxContainer(bookmarkedCourse);
 }
 
-fillUpCourseBoxContainer(bookmarkedCourse);
+var randomVersion = Math.floor(Math.random()*10**15);
+async function loadCourseData() {
+    const response = await fetch("js/data.json?"+randomVersion);
+    const courses = await response.json();
+    Courses = await courses;
+    setBookmark(await courses);
+}
+loadCourseData();
 
 function deleteCourse(courseId) {
     bookmarkedCourse = bookmarkedCourse.filter(function(el) {

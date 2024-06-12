@@ -1,3 +1,5 @@
+var Courses = [];
+
 window.addEventListener("pageshow", function ( event ) {
     if(localStorage.getItem("courseChangedIndex") == "true") {
         localStorage.setItem("courseChangedIndex", "false");
@@ -13,12 +15,8 @@ document.getElementById("reloadApp").onclick = function() {
     location.reload();
 }
 
-Trimesters.forEach(function(e) {
-    document.getElementById("trimesterList").innerHTML += `<option value="${e.courses}">Trimester ${e.trimester}</option>`
-});
-
 if(localStorage.getItem("bookmarkedCourseAdded") == null) {
-    localStorage.setItem("bookmarkedCourse", "MAT1151,CSE1115,CSE1325");
+    localStorage.setItem("bookmarkedCourse", "MATH1151,CSE1115,CSE1325");
     localStorage.setItem("bookmarkedCourseAdded", "true");
 }
 
@@ -67,17 +65,28 @@ function fillUpCourseBoxContainer(courses, length) {
 bookmarkedCourseData = localStorage.getItem("bookmarkedCourse");
 bookmarkedCourse = [];
 
-if(bookmarkedCourseData != '') {
-    bookmarkedCourseData = bookmarkedCourseData.split(",");
-    bookmarkedCourseData.forEach(function(code) {
-        matchedCourse = Courses.filter(function(el) {
-            return el.id.includes(code);
+function setBookmark(courses) {
+    if(bookmarkedCourseData != ""){
+        bookmarkedCourseData = bookmarkedCourseData.split(",");
+        bookmarkedCourseData.forEach(function(code) {
+            matchedCourse = courses.filter(function(el) {
+                return el.id.includes(code);
+            });
+            bookmarkedCourse.push(matchedCourse[0]);
         });
-        bookmarkedCourse.push(matchedCourse[0]);
-    });
+    }
+
+    fillUpCourseBoxContainer(bookmarkedCourse, bookmarkedCourse.length);
 }
 
-fillUpCourseBoxContainer(bookmarkedCourse, bookmarkedCourse.length);
+var randomVersion = Math.floor(Math.random()*10**15);
+async function loadCourseData() {
+    const response = await fetch("js/data.json?"+randomVersion);
+    const courses = await response.json();
+    Courses = await courses;
+    setBookmark(await courses);
+}
+loadCourseData();
 
 document.getElementById("searchCourse").oninput = function(e) {
     var searchValue = e.target.value;
@@ -130,9 +139,17 @@ document.getElementById("selectTrimester").onclick = function() {
     document.getElementById("trimesterBoxBackground").style.display = "none";
 }
 document.getElementById("selectTrimester").onclick = function() {
-    var newBookmarkedCourse = document.getElementById("trimesterList").value;
-    localStorage.setItem("bookmarkedCourse", newBookmarkedCourse);
-    location.reload();
+    let newBookmarkedCourseData = [];
+    var newTrimester = document.getElementById("trimesterList").value;
+    let matchedCourses = Courses.filter(function(el) {
+        return el.trimester == newTrimester;
+    });
+    matchedCourses.forEach(function(course) { 
+        newBookmarkedCourseData.push(course.id);
+    });
+
+   localStorage.setItem("bookmarkedCourse", newBookmarkedCourseData.toString());
+   location.reload();
 }
 
 function exitApp() {
