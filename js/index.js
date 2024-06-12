@@ -15,9 +15,9 @@ document.getElementById("reloadApp").onclick = function() {
     location.reload();
 }
 
-if(localStorage.getItem("bookmarkedCourseAdded") == null) {
+if(localStorage.getItem("isBookmarkedCourseAdded") == null) {
     localStorage.setItem("bookmarkedCourse", "MATH1151,CSE1115,CSE1325");
-    localStorage.setItem("bookmarkedCourseAdded", "true");
+    localStorage.setItem("isBookmarkedCourseAdded", "true");
 }
 
 function fillUpCourseBoxContainer(courses, length) {
