@@ -909,6 +909,58 @@
         "finalSolve": "null"
     },
     {
+        "id": "EEE2123",
+        "title": "Electronics",
+        "code": "EEE 2123",
+        "abbr": "Electronics",
+        "trimester": 2,
+        "colorOne": "#0000DA",
+        "colorTwo": "#FF0000",
+        "css":"background-image: linear-gradient(55deg, hsl(240deg 100% 43%) 0%, hsl(329deg 100% 46%) 50%, hsl(0deg 100% 50%) 100%)",
+        "mid": [
+            {
+                "code": 202,
+                "url": "question/EEE2123/mid/EEE2123_Mid_202.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/EEE2123/mid/EEE2123_Mid_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/EEE2123/mid/EEE2123_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/EEE2123/mid/EEE2123_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/EEE2123/mid/EEE2123_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/EEE2123/mid/EEE2123_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/EEE2123/mid/EEE2123_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/EEE2123/mid/EEE2123_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/EEE2123/mid/EEE2123_Mid_241.pdf"
+            }
+        ],
+        "final": [
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
         "id": "PHY2105",
         "title": "Physics",
         "code": "PHY 2105",
