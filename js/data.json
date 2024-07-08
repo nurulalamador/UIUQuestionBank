@@ -1534,6 +1534,10 @@
             {
                 "code": 233,
                 "url": "question/CSE2217/mid/CSE2217_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE2217/mid/CSE2217_Mid_241.pdf"
             }
         ],
         "final": [
@@ -1598,7 +1602,7 @@
                 "url": "question/CSE2217/final/CSE2217_Final_233.pdf"
             }
         ],
-        "midSolve": "null",
+        "midSolve": "question/CSE2217/mid/CSE2217_Mid_Solution.pdf",
         "finalSolve": "null"
     },
     {
