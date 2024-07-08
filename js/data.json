@@ -345,7 +345,7 @@
         "title": "Fundamental Calculus",
         "code": "MATH 1151",
         "abbr": "Calculus",
-        "trimester": [2,3],
+        "trimester": 2,
         "colorOne": "rgb(252, 176, 69)",
         "colorTwo": "rgb(33, 25, 180)",
         "css":"linear-gradient(109.6deg, rgb(252, 176, 69) 20%, rgb(253, 29, 29) 55%, rgb(33, 25, 180) 100%)",
@@ -429,7 +429,7 @@
         "title": "Calculus and Linear Algebra",
         "code": "MATH 2183",
         "abbr": "Linear Algebra",
-        "trimester": 4,
+        "trimester": 3,
         "colorOne": "rgb(205, 241, 44)",
         "colorTwo": "#00AA00",
         "css":"radial-gradient(circle at right, rgb(205, 241, 44) 5%, rgb(0, 209, 117), #00AA00 80%)",
@@ -913,7 +913,7 @@
         "title": "Electronics",
         "code": "EEE 2123",
         "abbr": "Electronics",
-        "trimester": 2,
+        "trimester": 6,
         "colorOne": "#0000DA",
         "colorTwo": "#FF0000",
         "css":"linear-gradient(55deg, hsl(240deg 100% 43%) 0%, hsl(329deg 100% 46%) 50%, hsl(0deg 100% 50%) 100%)",
@@ -1046,6 +1046,47 @@
             }
         ],
         "midSolve": "question/PHY2105/mid/PHY2105_Mid_Solution.pdf",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE3521",
+        "title": "Database Management Systems",
+        "code": "CSE 3521",
+        "abbr": "DBMS",
+        "trimester": 7,
+        "colorOne": "#05c9fa",
+        "colorTwo": "#e4f61e",
+        "css":"linear-gradient(90deg, hsla(192, 96%, 50%, 1) 0%, hsla(65, 92%, 54%, 1) 100%)",
+        "mid": [
+            {
+                "code": 222,
+                "url": "question/CSE3521/mid/CSE3521_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE3521/mid/CSE3521_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE3521/mid/CSE3521_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE3521/mid/CSE3521_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE3521/mid/CSE3521_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE3521/mid/CSE3521_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            
+        ],
+        "midSolve": "null",
         "finalSolve": "null"
     },
     {
@@ -1225,7 +1266,7 @@
         "title": "Coordinate Geometry and Vector Analysis",
         "code": "MATH 2201",
         "abbr": "Calculus",
-        "trimester": 5,
+        "trimester": 4,
         "colorOne": "#330066",
         "colorTwo": "#F0C433",
         "css":"linear-gradient( 110deg, hsl(270deg 100% 20%) 0%, hsl(171deg 57% 39%) 43%, hsl(163deg 76% 49%) 62%, hsl(145deg 78% 68%) 76%, hsl(79deg 56% 66%) 88%, hsl(46deg 86% 57%) 100% )",
@@ -1610,7 +1651,7 @@
         "title": "Probability and Statistics",
         "code": "MATH 2205",
         "abbr": "PS",
-        "trimester": 6,
+        "trimester": 5,
         "colorOne": "rgb(103,30,117)",
         "colorTwo": "rgb(252,76,2)",
         "css":"linear-gradient(-10deg, rgba(103,30,117,1) 11.2%, rgba(252,76,2,1) 91.1% )",
@@ -1678,7 +1719,7 @@
         "title": "Computer Architecture",
         "code": "CSE 3313",
         "abbr": "CA",
-        "trimester": 2,
+        "trimester": 6,
         "colorOne": "rgb(204, 133, 93)",
         "colorTwo": "rgb(51, 126, 212)",
         "css":"radial-gradient(at left top, rgb(204, 133, 93), rgb(51, 126, 212))",
@@ -1919,7 +1960,7 @@
     },
     {
         "id": "CSE4325",
-        "title": "Microprocessor, Microcontroller and Interfacing",
+        "title": "Microprocessors and Microcontrollers",
         "code": "CSE 4325",
         "abbr": "MM",
         "trimester": 8,
