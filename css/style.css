@@ -109,6 +109,7 @@ a {
     font-family: sans-serif;
     font-size: 15px;
     margin: 3px;
+    width: calc(100% - 40px);
 }
 .searchBox .icon {
     display: inline-block;
@@ -700,4 +701,56 @@ iframe {
     100% {
       transform: rotate(360deg);
     }
+}
+
+.ayatBox {
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 12px;
+    margin-bottom: 18px;
+    overflow: hidden;
+}
+
+.arabicAyat {
+    font-family: "Noto Naskh Arabic", serif;
+    font-optical-sizing: auto;
+    font-size: 22px;
+    text-align: center;
+    line-height: 130%;
+    padding: 25px;
+    padding-bottom: 10px;
+}
+.ayatTranslation {
+    background-color: #EEEEEE;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+.englishAyat {
+    padding: 5px 10px;
+    font-family: "Hind Siliguri", sans-serif;
+    line-height: 130%;
+    font-size: 14px;
+}
+.surahName {
+    background-color: #ff6622;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 8px;
+    margin-top: 8px;
+}
+.surahName .title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 2px;
+}
+.surahName .semiTitle {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    margin: 2px;
 }
