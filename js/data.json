@@ -1100,7 +1100,34 @@
             }
         ],
         "final": [
-            
+            {
+                "code": 221,
+                "url": "question/CSE3521/final/CSE3521_Final_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE3521/final/CSE3521_Final_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE3521/final/CSE3521_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE3521/final/CSE3521_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE3521/final/CSE3521_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE3521/final/CSE3521_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE3521/final/CSE3521_Final_241.pdf"
+            }
         ],
         "midSolve": "null",
         "finalSolve": "null"
