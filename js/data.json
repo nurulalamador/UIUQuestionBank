@@ -12,12 +12,20 @@
             {
                 "code": 222,
                 "url": "question/ENG1011/mid/ENG1011_Mid_222.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/ENG1011/mid/ENG1011_Mid_241.pdf"
             }
         ],
         "final": [
             {
                 "code": 222,
                 "url": "question/ENG1011/final/ENG1011_Final_222.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/ENG1011/final/ENG1011_Final_241.pdf"
             }
         ],
         "midSolve": "null",
@@ -36,6 +44,10 @@
             {
                 "code": 221,
                 "url": "question/ENG1013/mid/ENG1013_Mid_221.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/ENG1013/mid/ENG1013_Mid_233.pdf"
             },
             {
                 "code": 241,
@@ -104,6 +116,10 @@
             {
                 "code": 233,
                 "url": "question/CSE2213/mid/CSE2213_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE2213/mid/CSE2213_Mid_241.pdf"
             }
         ],
         "final": [
@@ -150,6 +166,10 @@
             {
                 "code": 233,
                 "url": "question/CSE2213/final/CSE2213_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE2213/final/CSE2213_Final_241.pdf"
             }
         ],
         "midSolve": "null",
@@ -385,6 +405,10 @@
             {
                 "code": 233,
                 "url": "question/MATH1151/mid/MATH1151_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/MATH1151/mid/MATH1151_Mid_241.pdf"
             }
         ],
         "final": [
@@ -419,6 +443,10 @@
             {
                 "code": 233,
                 "url": "question/MATH1151/final/MATH1151_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/MATH1151/final/MATH1151_Final_241.pdf"
             }
         ],
         "midSolve": "null",
@@ -461,6 +489,14 @@
             {
                 "code": 231,
                 "url": "question/MATH2183/mid/MATH2183_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/MATH2183/mid/MATH2183_Mid_232.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/MATH2183/mid/MATH2183_Mid_241.pdf"
             }
         ],
         "final": [
@@ -491,6 +527,14 @@
             {
                 "code": 233,
                 "url": "question/MATH2183/final/MATH2183_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/MATH2183/final/MATH2183_Final_241.pdf"
+            },
+            {
+                "code": 242,
+                "url": "question/MATH2183/final/MATH2183_Final_242.pdf"
             }
         ],
         "midSolve": "null",
@@ -725,6 +769,10 @@
             {
                 "code": 233,
                 "url": "question/CSE1325/mid/CSE1325_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE1325/mid/CSE1325_Mid_241.pdf"
             }
         ],
         "final": [
@@ -791,6 +839,10 @@
             {
                 "code": 233,
                 "url": "question/CSE1325/final/CSE1325_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE1325/final/CSE1325_Final_241.pdf"
             }
         ],
         "midSolve": "question/CSE1325/mid/CSE1325_Mid_Solution.pdf",
@@ -853,6 +905,10 @@
             {
                 "code": 233,
                 "url": "question/EEE2113/mid/EEE2113_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/EEE2113/mid/EEE2113_Mid_241.pdf"
             }
         ],
         "final": [
@@ -903,6 +959,10 @@
             {
                 "code": 233,
                 "url": "question/EEE2113/final/EEE2113_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/EEE2113/final/EEE2113_Final_241.pdf"
             }
         ],
         "midSolve": "null",
@@ -1465,6 +1525,10 @@
             {
                 "code": 233,
                 "url": "question/CSE2215/mid/CSE2215_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE2215/mid/CSE2215_Mid_241.pdf"
             }
         ],
         "final": [
@@ -1547,6 +1611,10 @@
             {
                 "code": 233,
                 "url": "question/CSE2215/final/CSE2215_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE2215/final/CSE2215_Final_241.pdf"
             }
 
         ],
