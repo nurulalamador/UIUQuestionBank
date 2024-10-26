@@ -2510,6 +2510,187 @@
         "finalSolve": "null"
     },
     {
+        "id": "PMG4101",
+        "title": "Project Management",
+        "code": "PMG 4101",
+        "abbr": "PM",
+        "trimester": 9,
+        "colorOne": "#6C0994",
+        "colorTwo": "#95FF32",
+        "css":"linear-gradient( 10deg, hsl(283deg 89% 31%) 0%, hsl(348deg 10% 52%) 40%, hsl(87deg 57% 59%) 80%, hsl(91deg 100% 60%) 100% )",
+        "mid": [
+            {
+                "code": 221,
+                "url": "question/PMG4101/mid/PMG4101_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/PMG4101/mid/PMG4101_Mid_222.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/PMG4101/mid/PMG4101_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/PMG4101/mid/PMG4101_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/PMG4101/mid/PMG4101_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 222,
+                "url": "question/PMG4101/final/PMG4101_Final_222.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/PMG4101/final/PMG4101_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/PMG4101/final/PMG4101_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/PMG4101/final/PMG4101_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/PMG4101/final/PMG4101_Final_241.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE4509",
+        "title": "Operating Systems",
+        "code": "CSE 4509",
+        "abbr": "OS",
+        "trimester": 10,
+        "colorOne": "#019859",
+        "colorTwo": "#d86b18",
+        "css":"linear-gradient( 110deg, hsl(155deg 99% 30%) 0%, hsl(83deg 62% 35%) 20%, hsl(49deg 100% 32%) 40%, hsl(26deg 80% 47%) 60%, hsl(355deg 95% 63%) 80%, hsl(328deg 100% 60%) 100% )",
+        "mid": [
+            {
+                "code": 181,
+                "url": "question/CSE4509/mid/CSE4509_Mid_181.pdf"
+            },
+            {
+                "code": 182,
+                "url": "question/CSE4509/mid/CSE4509_Mid_182.pdf"
+            },
+            {
+                "code": 201,
+                "url": "question/CSE4509/mid/CSE4509_Mid_201.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE4509/mid/CSE4509_Mid_212.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE4509/mid/CSE4509_Mid_221.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE4509/mid/CSE4509_Mid_231.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE4509/mid/CSE4509_Mid_233.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 171,
+                "url": "question/CSE4509/final/CSE4509_Final_171.pdf"
+            },
+            {
+                "code": 172,
+                "url": "question/CSE4509/final/CSE4509_Final_172.pdf"
+            },
+            {
+                "code": 173,
+                "url": "question/CSE4509/final/CSE4509_Final_173.pdf"
+            },
+            {
+                "code": 181,
+                "url": "question/CSE4509/final/CSE4509_Final_181.pdf"
+            },
+            {
+                "code": 182,
+                "url": "question/CSE4509/final/CSE4509_Final_182.pdf"
+            },
+            {
+                "code": 193,
+                "url": "question/CSE4509/final/CSE4509_Final_193.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE4509/final/CSE4509_Final_212.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE4509/final/CSE4509_Final_231.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE4509/final/CSE4509_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE4509/final/CSE4509_Final_241.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE4531",
+        "title": "Computer Security",
+        "code": "CSE 4531",
+        "abbr": "CS",
+        "trimester": 10,
+        "colorOne": "#794B00",
+        "colorTwo": "#8432FF",
+        "css":"linear-gradient( 190deg, hsl(37deg 100% 24%) 0%, hsl(329deg 37% 41%) 30%, hsl(276deg 59% 51%) 70%, hsl(264deg 100% 60%) 100% )",
+        "mid": [
+
+        ],
+        "final": [
+            {
+                "code": 212,
+                "url": "question/CSE4531/final/CSE4531_Final_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE4531/final/CSE4531_Final_213.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE4531/final/CSE4531_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE4531/final/CSE4531_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE4531/final/CSE4531_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE4531/final/CSE4531_Final_241.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
         "id": "BIO3105",
         "title": "Biology for Engineers",
         "code": "BIO 3105",
