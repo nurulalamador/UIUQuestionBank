@@ -1,3 +1,5 @@
+var Courses = [];
+
 function fillUpCourseBoxContainer(courses) {
     document.getElementById("courseBoxContainer").innerHTML = ""; 
     if(courses.length == 0) {
@@ -31,7 +33,14 @@ function fillUpCourseBoxContainer(courses) {
     }
 }
 
-fillUpCourseBoxContainer(Courses);
+var randomVersion = Math.floor(Math.random()*10**15);
+async function loadCourseData() {
+    const response = await fetch("js/data.json?"+randomVersion);
+    const courses = await response.json();
+    Courses = await courses;
+    fillUpCourseBoxContainer(await courses);
+}
+loadCourseData();
 
 document.getElementById("searchCourse").oninput = function(e) {
     var searchValue = e.target.value;

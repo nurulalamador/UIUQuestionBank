@@ -4,61 +4,73 @@ var getId = urlParams.get('id');
 var getTerm = urlParams.get('term');
 
 var fileUrls = [];
+var Course = [];
+var termName;
 
-Courses = Courses.filter(function(el) {
-    return el.id == getId;
-});
-
-var Course = Courses[0];
-var termName = getTerm == "mid" ? "Mid-Term" : "Final";
-document.getElementById("mainTitle").innerHTML = termName+" Questions";
-document.getElementById("titleDiv").innerHTML = Course.code;
-document.getElementById("semiTitleDiv").innerHTML = Course.title;
-document.getElementById("courseInfoBox").style.backgroundImage = Course.css;
-document.getElementById("courseTitle").innerHTML = Course.title;
-document.getElementById("courseCode").innerHTML = Course.code;
-
-if(Course[getTerm].length == 0) {
-    document.getElementById("questionBoxContainer").innerHTML += 
-    `            
-    <div class="notFound">
-        <div class="icon">
-            <i class="fas fa-poll-h"></i>
-        </div>
-        <div class="text">
-            <div class="title">No Question Found</div>
-            <div class="semiTitle">Please check again later!</div>
-        </div>
-    </div>
-    `;
-}
-else {
-    Course[getTerm].forEach(function (course) {
-        fileUrls.push(course.url);
-        var trimesterCode = course.code.toString().charAt(2);
-        var trimesterName = "";
-        if(trimesterCode == "1") {
-            trimesterName = "Spring";
-        }
-        else if(trimesterCode == "2") {
-            trimesterName = "Summer";
-        }
-        else {
-            trimesterName = "Fall"
-        };
-        var trimesterName = trimesterName+" 20"+course.code.toString().charAt(0)+course.code.toString().charAt(1);
-        
-        document.getElementById("questionBoxContainer").innerHTML += `
-            <a href="question.html?id=${getId}&term=${getTerm}&tri=${course.code}">
-                <div class="questionBox">
-                    <div class="code" style="background: ${Course.css}">${course.code}</div>
-                    <div class="name">${trimesterName}</div>
-                </div>
-            </a>
-        `
+function loadQuestions(courses) {
+    Courses = courses.filter(function(el) {
+        return el.id == getId;
     });
+    
+    Course = Courses[0];
+    termName = getTerm == "mid" ? "Mid-Term" : "Final";
+    document.getElementById("mainTitle").innerHTML = termName+" Questions";
+    document.getElementById("titleDiv").innerHTML = Course.code;
+    document.getElementById("semiTitleDiv").innerHTML = Course.title;
+    document.getElementById("courseInfoBox").style.backgroundImage = Course.css;
+    document.getElementById("courseTitle").innerHTML = Course.title;
+    document.getElementById("courseCode").innerHTML = Course.code;
+    
+    if(Course[getTerm].length == 0) {
+        document.getElementById("questionBoxContainer").innerHTML += 
+        `            
+        <div class="notFound">
+            <div class="icon">
+                <i class="fas fa-poll-h"></i>
+            </div>
+            <div class="text">
+                <div class="title">No Question Found</div>
+                <div class="semiTitle">Please check again later!</div>
+            </div>
+        </div>
+        `;
+    }
+    else {
+        Course[getTerm].forEach(function (course) {
+            fileUrls.push(course.url);
+            var trimesterCode = course.code.toString().charAt(2);
+            var trimesterName = "";
+            if(trimesterCode == "1") {
+                trimesterName = "Spring";
+            }
+            else if(trimesterCode == "2") {
+                trimesterName = "Summer";
+            }
+            else {
+                trimesterName = "Fall"
+            };
+            var trimesterName = trimesterName+" 20"+course.code.toString().charAt(0)+course.code.toString().charAt(1);
+            
+            document.getElementById("questionBoxContainer").innerHTML += `
+                <a href="question.html?id=${getId}&term=${getTerm}&tri=${course.code}">
+                    <div class="questionBox">
+                        <div class="code" style="background: ${Course.css}">${course.code}</div>
+                        <div class="name">${trimesterName}</div>
+                    </div>
+                </a>
+            `
+        });
+    }
 }
 
+var randomVersion = Math.floor(Math.random()*10**15);
+async function loadCourseData() {
+    const response = await fetch("js/data.json?"+randomVersion);
+    const courses = await response.json();
+    loadQuestions(await courses);
+}
+
+loadCourseData();
 
 document.getElementById("openToolMenu").onclick = function() {
     document.getElementById("toolMenu").style.display = "block";
@@ -70,6 +82,16 @@ document.getElementById("toolMenu").onclick = function() {
 
 
 function GenerateZIP() {
+    function isFacebookApp() {
+        var isTrue = /FB_IAB/.test(navigator.userAgent) || /FBAN/.test(navigator.userAgent) || /FBAV/.test(navigator.userAgent);
+        return isTrue;
+    }
+
+    if (isFacebookApp()) {
+        showToast("This feature is not supported in this browser. Try with Google Chrome.");
+        return;
+    }
+
     var zip = new JSZip();
     document.getElementById("zipBoxBackground").style.display = "block";
     var count = 0;

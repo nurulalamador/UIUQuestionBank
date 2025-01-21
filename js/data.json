@@ -1,0 +1,2897 @@
+[
+    {
+        "id": "ENG1011",
+        "title": "English I",
+        "code": "ENG 1011",
+        "abbr": "English 1",
+        "trimester": 1,
+        "colorOne": "rgb(69, 179, 224) ",
+        "colorTwo": "rgb(102, 51, 153)",
+        "css":"linear-gradient(109.6deg, rgb(69, 179, 224) 11.2%, rgb(102, 51, 153) 100.2%)",
+        "mid": [
+            {
+                "code": 213,
+                "url": "question/ENG1011/mid/ENG1011_Mid_213.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/ENG1011/mid/ENG1011_Mid_222.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/ENG1011/mid/ENG1011_Mid_232.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/ENG1011/mid/ENG1011_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 222,
+                "url": "question/ENG1011/final/ENG1011_Final_222.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/ENG1011/final/ENG1011_Final_241.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "ENG1013",
+        "title": "English II",
+        "code": "ENG 1013",
+        "abbr": "English 2",
+        "trimester": 2,
+        "colorOne": "rgb(102, 64, 123)",
+        "colorTwo": "rgb(251, 168, 214)",
+        "css":"linear-gradient(89.9deg, rgb(102, 64, 123) 0%, rgb(252, 41, 119) 100%, rgb(251, 168, 214) 100.1%)",
+        "mid": [
+            {
+                "code": 221,
+                "url": "question/ENG1013/mid/ENG1013_Mid_221.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/ENG1013/mid/ENG1013_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/ENG1013/mid/ENG1013_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 223,
+                "url": "question/ENG1013/final/ENG1013_Final_223.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE2213",
+        "title": "Discrete Mathematics",
+        "code": "CSE 2213",
+        "abbr": "DM",
+        "trimester": 1,
+        "colorOne": "#fda34b",
+        "colorTwo": "#7046aa",
+        "css":"linear-gradient(-15deg, #fda34b 0%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 100%)",
+        "mid": [
+            {
+                "code": 201,
+                "url": "question/CSE2213/mid/CSE2213_Mid_201.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/CSE2213/mid/CSE2213_Mid_202.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/CSE2213/mid/CSE2213_Mid_203.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE2213/mid/CSE2213_Mid_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE2213/mid/CSE2213_Mid_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE2213/mid/CSE2213_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE2213/mid/CSE2213_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE2213/mid/CSE2213_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE2213/mid/CSE2213_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE2213/mid/CSE2213_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE2213/mid/CSE2213_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE2213/mid/CSE2213_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 193,
+                "url": "question/CSE2213/final/CSE2213_Final_193.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/CSE2213/final/CSE2213_Final_203.pdf"
+            },
+            {
+                "code": 211,
+                "url": "question/CSE2213/final/CSE2213_Final_211.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE2213/final/CSE2213_Final_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE2213/final/CSE2213_Final_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE2213/final/CSE2213_Final_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE2213/final/CSE2213_Final_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE2213/final/CSE2213_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE2213/final/CSE2213_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE2213/final/CSE2213_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE2213/final/CSE2213_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE2213/final/CSE2213_Final_241.pdf"
+            },
+            {
+                "code": 242,
+                "url": "question/CSE2213/final/CSE2213_Final_242.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "BDS1201",
+        "title": "History of the Emergence of Bangladesh",
+        "code": "BDS 1201",
+        "abbr": "BDS",
+        "trimester": 1,
+        "colorOne": "#00880b",
+        "colorTwo": "#ed0000",
+        "css":"linear-gradient(43deg, #00880b 0%, #5bc850 30%, #ff3e07 66%, #ed0000 100%)",
+        "mid": [
+            {
+                "code": 222,
+                "url": "question/BDS1201/mid/BDS1201_Mid_222.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 221,
+                "url": "question/BDS1201/final/BDS1201_Final_221.pdf"
+            },
+            {
+                "code": "223-A",
+                "url": "question/BDS1201/final/BDS1201_Final_223_A.pdf"
+            },
+            {
+                "code": "223-B",
+                "url": "question/BDS1201/final/BDS1201_Final_223_B.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/BDS1201/final/BDS1201_Final_231.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE1111",
+        "title": "Structured Programming Language",
+        "code": "CSE 1111",
+        "abbr": "SPL",
+        "trimester": 2,
+        "colorOne": "rgb(109, 118, 150)",
+        "colorTwo": "rgb(237, 181, 121)",
+        "css": "linear-gradient(102.2deg, rgb(109, 118, 150) 10%, rgb(89, 72, 79) 20%, rgb(69, 92, 79) 40%, rgb(204, 85, 67) 70%, rgb(237, 181, 121) 90%, rgb(219, 230, 175) 95%)",
+        "mid": [
+            {
+                "code": 193,
+                "url": "question/CSE1111/mid/CSE1111_Mid_193.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/CSE1111/final/CSE1111_Mid_202.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/CSE1111/mid/CSE1111_Mid_203.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE1111/mid/CSE1111_Mid_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE1111/mid/CSE1111_Mid_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE1111/mid/CSE1111_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE1111/mid/CSE1111_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE1111/mid/CSE1111_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE1111/mid/CSE1111_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE1111/mid/CSE1111_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE1111/mid/CSE1111_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE1111/mid/CSE1111_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 191,
+                "url": "question/CSE1111/final/CSE1111_Final_191.pdf"
+            },
+            {
+                "code": 192,
+                "url": "question/CSE1111/final/CSE1111_Final_192.pdf"
+            },
+            {
+                "code": 193,
+                "url": "question/CSE1111/final/CSE1111_Final_193.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/CSE1111/final/CSE1111_Final_203.pdf"
+            },
+            {
+                "code": 211,
+                "url": "question/CSE1111/final/CSE1111_Final_211.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE1111/final/CSE1111_Final_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE1111/final/CSE1111_Final_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE1111/final/CSE1111_Final_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE1111/final/CSE1111_Final_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE1111/final/CSE1111_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE1111/final/CSE1111_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE1111/final/CSE1111_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE1111/final/CSE1111_Final_233.pdf"
+            }
+        ],
+        "midSolve": "question/CSE1111/mid/CSE1111_Mid_Solution.pdf",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE1112",
+        "title": "Structured Programming Language Laboratory",
+        "code": "CSE 1112",
+        "abbr": "SPL Lab",
+        "trimester": 2,
+        "colorOne": "rgb(255, 7, 7)",
+        "colorTwo": "rgb(255, 255, 5)",
+        "css":"linear-gradient(113.9deg, rgb(255, 7, 7) -4.5%, rgb(255, 255, 5) 98.8%)",
+        "mid": [
+
+        ],
+        "final": [
+            {
+                "code": 222,
+                "url": "question/CSE1112/final/CSE1112_Final_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE1112/final/CSE1112_Final_223.pdf"
+            },
+            {
+                "code": "231-A",
+                "url": "question/CSE1112/final/CSE1112_Final_231_A.pdf"
+            },
+            {
+                "code": "231-B",
+                "url": "question/CSE1112/final/CSE1112_Final_231_B.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "MATH1151",
+        "title": "Fundamental Calculus",
+        "code": "MATH 1151",
+        "abbr": "Calculus",
+        "trimester": 2,
+        "colorOne": "rgb(252, 176, 69)",
+        "colorTwo": "rgb(33, 25, 180)",
+        "css":"linear-gradient(109.6deg, rgb(252, 176, 69) 20%, rgb(253, 29, 29) 55%, rgb(33, 25, 180) 100%)",
+        "mid": [
+            {
+                "code": 192,
+                "url": "question/MATH1151/mid/MATH1151_Mid_192.pdf"
+            },
+            {
+                "code": 193,
+                "url": "question/MATH1151/mid/MATH1151_Mid_193.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/MATH1151/mid/MATH1151_Mid_203.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/MATH1151/mid/MATH1151_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/MATH1151/mid/MATH1151_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/MATH1151/mid/MATH1151_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/MATH1151/mid/MATH1151_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/MATH1151/mid/MATH1151_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/MATH1151/mid/MATH1151_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/MATH1151/mid/MATH1151_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 173,
+                "url": "question/MATH1151/final/MATH1151_Final_173.pdf"
+            },
+            {
+                "code": 193,
+                "url": "question/MATH1151/final/MATH1151_Final_193.pdf"
+            },
+            {
+                "code": 211,
+                "url": "question/MATH1151/final/MATH1151_Final_211.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/MATH1151/final/MATH1151_Final_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/MATH1151/final/MATH1151_Final_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/MATH1151/final/MATH1151_Final_223.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/MATH1151/final/MATH1151_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/MATH1151/final/MATH1151_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/MATH1151/final/MATH1151_Final_241.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "MATH2183",
+        "title": "Calculus and Linear Algebra",
+        "code": "MATH 2183",
+        "abbr": "Linear Algebra",
+        "trimester": 3,
+        "colorOne": "rgb(205, 241, 44)",
+        "colorTwo": "#00AA00",
+        "css":"radial-gradient(circle at right, rgb(205, 241, 44) 5%, rgb(0, 209, 117), #00AA00 80%)",
+        "mid": [
+            {
+                "code": 191,
+                "url": "question/MATH2183/mid/MATH2183_Mid_191.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/MATH2183/mid/MATH2183_Mid_202.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/MATH2183/mid/MATH2183_Mid_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/MATH2183/mid/MATH2183_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/MATH2183/mid/MATH2183_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/MATH2183/mid/MATH2183_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/MATH2183/mid/MATH2183_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/MATH2183/mid/MATH2183_Mid_232.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/MATH2183/mid/MATH2183_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 183,
+                "url": "question/MATH2183/final/MATH2183_Final_183.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/MATH2183/final/MATH2183_Final_202.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/MATH2183/final/MATH2183_Final_221.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/MATH2183/final/MATH2183_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/MATH2183/final/MATH2183_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/MATH2183/final/MATH2183_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/MATH2183/final/MATH2183_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/MATH2183/final/MATH2183_Final_241.pdf"
+            },
+            {
+                "code": 242,
+                "url": "question/MATH2183/final/MATH2183_Final_242.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE1115",
+        "title": "Object Oriented Programming",
+        "code": "CSE 1115",
+        "trimester": 3,
+        "abbr": "OOP",
+        "colorOne": "rgb(12, 85, 141)",
+        "colorTwo": "rgb(249, 140, 69)",
+        "css":"radial-gradient(circle at right, rgb(12, 85, 141) 15%, rgb(205, 181, 93) 40%, rgb(249, 140, 69) 60%, rgb(12, 73, 116) 85%)",
+        "mid": [
+            {
+                "code": 173,
+                "url": "question/CSE1115/mid/CSE1115_Mid_173.pdf"
+            },
+            {
+                "code": 181,
+                "url": "question/CSE1115/mid/CSE1115_Mid_181.pdf"
+            },
+            {
+                "code": 182,
+                "url": "question/CSE1115/mid/CSE1115_Mid_182.pdf"
+            },
+            {
+                "code": 183,
+                "url": "question/CSE1115/mid/CSE1115_Mid_183.pdf"
+            },
+            {
+                "code": 191,
+                "url": "question/CSE1115/mid/CSE1115_Mid_191.pdf"
+            },
+            {
+                "code": 192,
+                "url": "question/CSE1115/mid/CSE1115_Mid_192.pdf"
+            },
+            {
+                "code": 193,
+                "url": "question/CSE1115/mid/CSE1115_Mid_193.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/CSE1115/mid/CSE1115_Mid_202.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/CSE1115/mid/CSE1115_Mid_203.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE1115/mid/CSE1115_Mid_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE1115/mid/CSE1115_Mid_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE1115/mid/CSE1115_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE1115/mid/CSE1115_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE1115/mid/CSE1115_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE1115/mid/CSE1115_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE1115/mid/CSE1115_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE1115/mid/CSE1115_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE1115/mid/CSE1115_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 162,
+                "url": "question/CSE1115/final/CSE1115_Final_162.pdf"
+            },
+            {
+                "code": 163,
+                "url": "question/CSE1115/final/CSE1115_Final_163.pdf"
+            },
+            {
+                "code": 171,
+                "url": "question/CSE1115/final/CSE1115_Final_171.pdf"
+            },
+            {
+                "code": 172,
+                "url": "question/CSE1115/final/CSE1115_Final_172.pdf"
+            },
+            {
+                "code": 173,
+                "url": "question/CSE1115/final/CSE1115_Final_173.pdf"
+            },
+            {
+                "code": 181,
+                "url": "question/CSE1115/final/CSE1115_Final_181.pdf"
+            },
+            {
+                "code": 182,
+                "url": "question/CSE1115/final/CSE1115_Final_182.pdf"
+            },
+            {
+                "code": 183,
+                "url": "question/CSE1115/final/CSE1115_Final_183.pdf"
+            },
+            {
+                "code": 191,
+                "url": "question/CSE1115/final/CSE1115_Final_191.pdf"
+            },
+            {
+                "code": 192,
+                "url": "question/CSE1115/final/CSE1115_Final_192.pdf"
+            },
+            {
+                "code": 193,
+                "url": "question/CSE1115/final/CSE1115_Final_193.pdf"
+            },
+            {
+                "code": 211,
+                "url": "question/CSE1115/final/CSE1115_Final_211.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE1115/final/CSE1115_Final_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE1115/final/CSE1115_Final_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE1115/final/CSE1115_Final_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE1115/final/CSE1115_Final_222.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE1115/final/CSE1115_Final_231.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE1115/final/CSE1115_Final_233.pdf"
+            }
+        ],
+        "midSolve": "question/CSE1115/mid/CSE1115_Mid_Solution.pdf",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE1325",
+        "title": "Digital Logic Design",
+        "code": "CSE 1325",
+        "abbr": "DLD",
+        "trimester": 3,
+        "colorOne": "rgb(241, 78, 163)",
+        "colorTwo": "rgb(26, 243, 158)",
+        "css":"radial-gradient(circle at 1.5% 2.8%, rgb(241, 78, 163) 30%, rgb(26, 243, 158) 80%, rgb(69, 237, 244) 95%)",
+        "mid": [
+            {
+                "code": 183,
+                "url": "question/CSE1325/mid/CSE1325_Mid_183.pdf"
+            },
+            {
+                "code": 191,
+                "url": "question/CSE1325/mid/CSE1325_Mid_191.pdf"
+            },
+            {
+                "code": 192,
+                "url": "question/CSE1325/mid/CSE1325_Mid_192.pdf"
+            },
+            {
+                "code": 193,
+                "url": "question/CSE1325/mid/CSE1325_Mid_193.pdf"
+            },
+            {
+                "code": 201,
+                "url": "question/CSE1325/mid/CSE1325_Mid_201.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/CSE1325/mid/CSE1325_Mid_202.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/CSE1325/mid/CSE1325_Mid_203.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE1325/mid/CSE1325_Mid_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE1325/mid/CSE1325_Mid_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE1325/mid/CSE1325_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE1325/mid/CSE1325_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE1325/mid/CSE1325_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE1325/mid/CSE1325_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE1325/mid/CSE1325_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE1325/mid/CSE1325_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE1325/mid/CSE1325_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 183,
+                "url": "question/CSE1325/final/CSE1325_Final_183.pdf"
+            },
+            {
+                "code": 191,
+                "url": "question/CSE1325/final/CSE1325_Final_191.pdf"
+            },
+            {
+                "code": 192,
+                "url": "question/CSE1325/final/CSE1325_Final_192.pdf"
+            },
+            {
+                "code": 193,
+                "url": "question/CSE1325/final/CSE1325_Final_193.pdf"
+            },
+            {
+                "code": 201,
+                "url": "question/CSE1325/final/CSE1325_Final_201.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/CSE1325/final/CSE1325_Final_202.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/CSE1325/final/CSE1325_Final_203.pdf"
+            },
+            {
+                "code": 211,
+                "url": "question/CSE1325/final/CSE1325_Final_211.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE1325/final/CSE1325_Final_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE1325/final/CSE1325_Final_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE1325/final/CSE1325_Final_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE1325/final/CSE1325_Final_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE1325/final/CSE1325_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE1325/final/CSE1325_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE1325/final/CSE1325_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE1325/final/CSE1325_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE1325/final/CSE1325_Final_241.pdf"
+            }
+        ],
+        "midSolve": "question/CSE1325/mid/CSE1325_Mid_Solution.pdf",
+        "finalSolve": "null"
+    },
+    {
+        "id": "EEE2113",
+        "title": "Electrical Circuits",
+        "code": "EEE 2113",
+        "abbr": "EC",
+        "trimester": 4,
+        "colorOne": "#4fb576",
+        "colorTwo": "#4c7788",
+        "css":"linear-gradient(10deg, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%)",
+        "mid": [
+            {
+                "code": 172,
+                "url": "question/EEE2113/mid/EEE2113_Mid_172.pdf"
+            },
+            {
+                "code": 173,
+                "url": "question/EEE2113/mid/EEE2113_Mid_173.pdf"
+            },
+            {
+                "code": 181,
+                "url": "question/EEE2113/mid/EEE2113_Mid_181.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/EEE2113/mid/EEE2113_Mid_203.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/EEE2113/mid/EEE2113_Mid_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/EEE2113/mid/EEE2113_Mid_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/EEE2113/mid/EEE2113_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/EEE2113/mid/EEE2113_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/EEE2113/mid/EEE2113_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/EEE2113/mid/EEE2113_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/EEE2113/mid/EEE2113_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/EEE2113/mid/EEE2113_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/EEE2113/mid/EEE2113_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 171,
+                "url": "question/EEE2113/final/EEE2113_Final_171.pdf"
+            },
+            {
+                "code": 172,
+                "url": "question/EEE2113/final/EEE2113_Final_172.pdf"
+            },
+            {
+                "code": 173,
+                "url": "question/EEE2113/final/EEE2113_Final_173.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/EEE2113/final/EEE2113_Final_203.pdf"
+            },
+            {
+                "code": 211,
+                "url": "question/EEE2113/final/EEE2113_Final_211.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/EEE2113/final/EEE2113_Final_212.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/EEE2113/final/EEE2113_Final_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/EEE2113/final/EEE2113_Final_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/EEE2113/final/EEE2113_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/EEE2113/final/EEE2113_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/EEE2113/final/EEE2113_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/EEE2113/final/EEE2113_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/EEE2113/final/EEE2113_Final_241.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "EEE2123",
+        "title": "Electronics",
+        "code": "EEE 2123",
+        "abbr": "Electronics",
+        "trimester": 6,
+        "colorOne": "#0000DA",
+        "colorTwo": "#FF0000",
+        "css":"linear-gradient(55deg, hsl(240deg 100% 43%) 0%, hsl(329deg 100% 46%) 50%, hsl(0deg 100% 50%) 100%)",
+        "mid": [
+            {
+                "code": 202,
+                "url": "question/EEE2123/mid/EEE2123_Mid_202.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/EEE2123/mid/EEE2123_Mid_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/EEE2123/mid/EEE2123_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/EEE2123/mid/EEE2123_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/EEE2123/mid/EEE2123_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/EEE2123/mid/EEE2123_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/EEE2123/mid/EEE2123_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/EEE2123/mid/EEE2123_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/EEE2123/mid/EEE2123_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 231,
+                "url": "question/EEE2123/final/EEE2123_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/EEE2123/final/EEE2123_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/EEE2123/final/EEE2123_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/EEE2123/final/EEE2123_Final_241.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "PHY2105",
+        "title": "Physics",
+        "code": "PHY 2105",
+        "abbr": "Physics",
+        "trimester": 4,
+        "colorOne": "#580864",
+        "colorTwo": "#90eef3",
+        "css":"linear-gradient(to right top, #580864, #523083, #454c9e, #3166b5, #137fc6, #0192d1, #17a5d9, #35b8e0, #54cae6, #72dcec, #90eef3, #aefffa)",
+        "mid": [
+            {
+                "code": 203,
+                "url": "question/PHY2105/mid/PHY2105_Mid_203.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/PHY2105/mid/PHY2105_Mid_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/PHY2105/mid/PHY2105_Mid_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/PHY2105/mid/PHY2105_Mid_221.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/PHY2105/mid/PHY2105_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/PHY2105/mid/PHY2105_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/PHY2105/mid/PHY2105_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/PHY2105/mid/PHY2105_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/PHY2105/mid/PHY2105_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 203,
+                "url": "question/PHY2105/final/PHY2105_Final_203.pdf"
+            },
+            {
+                "code": 211,
+                "url": "question/PHY2105/final/PHY2105_Final_211.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/PHY2105/final/PHY2105_Final_212.pdf"
+            },
+            {
+                "code": "213-A",
+                "url": "question/PHY2105/final/PHY2105_Final_213_A.pdf"
+            },
+            {
+                "code": "213-B",
+                "url": "question/PHY2105/final/PHY2105_Final_213_B.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/PHY2105/final/PHY2105_Final_221.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/PHY2105/final/PHY2105_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/PHY2105/final/PHY2105_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/PHY2105/final/PHY2105_Final_233.pdf"
+            }
+        ],
+        "midSolve": "question/PHY2105/mid/PHY2105_Mid_Solution.pdf",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE3521",
+        "title": "Database Management Systems",
+        "code": "CSE 3521",
+        "abbr": "DBMS",
+        "trimester": 7,
+        "colorOne": "#05c9fa",
+        "colorTwo": "#e4f61e",
+        "css":"linear-gradient(90deg, hsla(192, 96%, 50%, 1) 0%, hsla(65, 92%, 54%, 1) 100%)",
+        "mid": [
+            {
+                "code": 222,
+                "url": "question/CSE3521/mid/CSE3521_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE3521/mid/CSE3521_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE3521/mid/CSE3521_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE3521/mid/CSE3521_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE3521/mid/CSE3521_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE3521/mid/CSE3521_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 221,
+                "url": "question/CSE3521/final/CSE3521_Final_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE3521/final/CSE3521_Final_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE3521/final/CSE3521_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE3521/final/CSE3521_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE3521/final/CSE3521_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE3521/final/CSE3521_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE3521/final/CSE3521_Final_241.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "SOC2101",
+        "title": "Society, Environment and Engineering Ethics",
+        "code": "SOC 2101",
+        "abbr": "SOC",
+        "trimester": 5,
+        "colorOne": "#1BA7FE",
+        "colorTwo": "#EB8BFE",
+        "css":"linear-gradient( 40deg, hsl(203deg 99% 55%) 0%, hsl(215deg 82% 53%) 33%, hsl(252deg 100% 41%) 65%, hsl(271deg 75% 65%) 86%, hsl(290deg 98% 77%) 100% )",
+        "mid": [
+            {
+                "code": 203,
+                "url": "question/SOC2101/mid/SOC2101_Mid_203.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/SOC2101/mid/SOC2101_Mid_223.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/SOC2101/mid/SOC2101_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/SOC2101/mid/SOC2101_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 203,
+                "url": "question/SOC2101/final/SOC2101_Final_203.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/SOC2101/final/SOC2101_Final_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/SOC2101/final/SOC2101_Final_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/SOC2101/final/SOC2101_Final_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/SOC2101/final/SOC2101_Final_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/SOC2101/final/SOC2101_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/SOC2101/final/SOC2101_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/SOC2101/final/SOC2101_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/SOC2101/final/SOC2101_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/SOC2101/final/SOC2101_Final_241.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE2233",
+        "title": "Theory of Computation",
+        "code": "CSE 2233",
+        "abbr": "TOC",
+        "trimester": 5,
+        "colorOne": "#640808",
+        "colorTwo": "#ff98ce",
+        "css":"linear-gradient(to left bottom, #640808, #780914, #8d091e, #a2082a, #b80537, #c81c49, #d72c5b, #e53b6e, #ee5588, #f56ca1, #fa82b8, #ff98ce)",
+        "mid": [
+            {
+                "code": 182,
+                "url": "question/CSE2233/mid/CSE2233_Mid_182.pdf"
+            },
+            {
+                "code": 183,
+                "url": "question/CSE2233/mid/CSE2233_Mid_183.pdf"
+            },
+            {
+                "code": 191,
+                "url": "question/CSE2233/mid/CSE2233_Mid_191.pdf"
+            },
+            {
+                "code": 192,
+                "url": "question/CSE2233/mid/CSE2233_Mid_192.pdf"
+            },
+            {
+                "code": 193,
+                "url": "question/CSE2233/mid/CSE2233_Mid_193.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/CSE2233/mid/CSE2233_Mid_202.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE2233/mid/CSE2233_Mid_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE2233/mid/CSE2233_Mid_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE2233/mid/CSE2233_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE2233/mid/CSE2233_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE2233/mid/CSE2233_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE2233/mid/CSE2233_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE2233/mid/CSE2233_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE2233/mid/CSE2233_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE2233/mid/CSE2233_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 183,
+                "url": "question/CSE2233/final/CSE2233_Final_183.pdf"
+            },
+            {
+                "code": 191,
+                "url": "question/CSE2233/final/CSE2233_Final_191.pdf"
+            },
+            {
+                "code": 192,
+                "url": "question/CSE2233/final/CSE2233_Final_192.pdf"
+            },
+            {
+                "code": 193,
+                "url": "question/CSE2233/final/CSE2233_Final_193.pdf"
+            },
+            {
+                "code": 201,
+                "url": "question/CSE2233/final/CSE2233_Final_201.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/CSE2233/final/CSE2233_Final_202.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE2233/final/CSE2233_Final_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE2233/final/CSE2233_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE2233/final/CSE2233_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE2233/final/CSE2233_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE2233/final/CSE2233_Final_233.pdf"
+            }
+        ],
+        "midSolve": "question/CSE2233/mid/CSE2233_Mid_Solution.pdf",
+        "finalSolve": "question/CSE2233/final/CSE2233_Final_Solution.pdf"
+    },
+    {
+        "id": "MATH2201",
+        "title": "Coordinate Geometry and Vector Analysis",
+        "code": "MATH 2201",
+        "abbr": "Calculus",
+        "trimester": 4,
+        "colorOne": "#330066",
+        "colorTwo": "#F0C433",
+        "css":"linear-gradient( 110deg, hsl(270deg 100% 20%) 0%, hsl(171deg 57% 39%) 43%, hsl(163deg 76% 49%) 62%, hsl(145deg 78% 68%) 76%, hsl(79deg 56% 66%) 88%, hsl(46deg 86% 57%) 100% )",
+        "mid": [
+            {
+                "code": 202,
+                "url": "question/MATH2201/mid/MATH2201_Mid_202.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/MATH2201/mid/MATH2201_Mid_203.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/MATH2201/mid/MATH2201_Mid_212.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/MATH2201/mid/MATH2201_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/MATH2201/mid/MATH2201_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/MATH2201/mid/MATH2201_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/MATH2201/mid/MATH2201_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/MATH2201/mid/MATH2201_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/MATH2201/mid/MATH2201_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 202,
+                "url": "question/MATH2201/final/MATH2201_Final_202.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/MATH2201/final/MATH2201_Final_221.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/MATH2201/final/MATH2201_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/MATH2201/final/MATH2201_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/MATH2201/final/MATH2201_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/MATH2201/final/MATH2201_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/MATH2201/final/MATH2201_Final_241.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE2215",
+        "title": "Data Structure and Algorithms I",
+        "code": "CSE 2215",
+        "abbr": "DSA 1",
+        "trimester": 5,
+        "colorOne": "rgb(36, 9, 119)",
+        "colorTwo": "rgb(181, 0, 237)",
+        "css":"radial-gradient(circle at top right, rgb(36, 9, 119) 30%, rgb(72, 7, 149) 50%, rgb(109, 5, 178) 60%, rgb(145, 2, 208), rgb(181, 0, 237))",
+        "mid": [
+            {
+                "code": 171,
+                "url": "question/CSE2215/mid/CSE2215_Mid_171.pdf"
+            },
+            {
+                "code": 172,
+                "url": "question/CSE2215/mid/CSE2215_Mid_172.pdf"
+            },
+            {
+                "code": 173,
+                "url": "question/CSE2215/mid/CSE2215_Mid_173.pdf"
+            },
+            {
+                "code": 181,
+                "url": "question/CSE2215/mid/CSE2215_Mid_181.pdf"
+            },
+            {
+                "code": 182,
+                "url": "question/CSE2215/mid/CSE2215_Mid_182.pdf"
+            },
+            {
+                "code": 183,
+                "url": "question/CSE2215/mid/CSE2215_Mid_183.pdf"
+            },
+            {
+                "code": 191,
+                "url": "question/CSE2215/mid/CSE2215_Mid_191.pdf"
+            },
+            {
+                "code": 192,
+                "url": "question/CSE2215/mid/CSE2215_Mid_192.pdf"
+            },
+            {
+                "code": 193,
+                "url": "question/CSE2215/mid/CSE2215_Mid_193.pdf"
+            },
+            {
+                "code": 201,
+                "url": "question/CSE2215/mid/CSE2215_Mid_201.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/CSE2215/mid/CSE2215_Mid_202.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/CSE2215/mid/CSE2215_Mid_203.pdf"
+            },
+            {
+                "code": 211,
+                "url": "question/CSE2215/mid/CSE2215_Mid_211.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE2215/mid/CSE2215_Mid_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE2215/mid/CSE2215_Mid_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE2215/mid/CSE2215_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE2215/mid/CSE2215_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE2215/mid/CSE2215_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE2215/mid/CSE2215_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE2215/mid/CSE2215_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE2215/mid/CSE2215_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE2215/mid/CSE2215_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 171,
+                "url": "question/CSE2215/final/CSE2215_Final_171.pdf"
+            },
+            {
+                "code": 172,
+                "url": "question/CSE2215/final/CSE2215_Final_172.pdf"
+            },
+            {
+                "code": 173,
+                "url": "question/CSE2215/final/CSE2215_Final_173.pdf"
+            },
+            {
+                "code": 181,
+                "url": "question/CSE2215/final/CSE2215_Final_181.pdf"
+            },
+            {
+                "code": 182,
+                "url": "question/CSE2215/final/CSE2215_Final_182.pdf"
+            },
+            {
+                "code": 183,
+                "url": "question/CSE2215/final/CSE2215_Final_183.pdf"
+            },
+            {
+                "code": 191,
+                "url": "question/CSE2215/final/CSE2215_Final_191.pdf"
+            },
+            {
+                "code": 192,
+                "url": "question/CSE2215/final/CSE2215_Final_192.pdf"
+            },
+            {
+                "code": 193,
+                "url": "question/CSE2215/final/CSE2215_Final_193.pdf"
+            },
+            {
+                "code": 201,
+                "url": "question/CSE2215/final/CSE2215_Final_201.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/CSE2215/final/CSE2215_Final_203.pdf"
+            },
+            {
+                "code": 211,
+                "url": "question/CSE2215/final/CSE2215_Final_211.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE2215/final/CSE2215_Final_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE2215/final/CSE2215_Final_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE2215/final/CSE2215_Final_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE2215/final/CSE2215_Final_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE2215/final/CSE2215_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE2215/final/CSE2215_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE2215/final/CSE2215_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE2215/final/CSE2215_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE2215/final/CSE2215_Final_241.pdf"
+            }
+
+        ],
+        "midSolve": "question/CSE2215/mid/CSE2215_Mid_Solution.pdf",
+        "finalSolve": "question/CSE2215/final/CSE2215_Final_Solution.pdf"
+    },
+    {
+        "id": "CSE2217",
+        "title": "Data Structure and Algorithms II",
+        "code": "CSE 2217",
+        "abbr": "DSA 2",
+        "trimester": 6,
+        "colorOne": "#177a1b",
+        "colorTwo": "#5fccfb",
+        "css":"linear-gradient(to right top, #177a1b, #308e33, #44a24a, #58b661, #6ccb78, #61d48f, #57dda6, #4fe5bc, #21e1d5, #02dce9, #35d4f6, #5fccfb)",
+        "mid": [
+            {
+                "code": 171,
+                "url": "question/CSE2217/mid/CSE2217_Mid_171.pdf"
+            },
+            {
+                "code": 172,
+                "url": "question/CSE2217/mid/CSE2217_Mid_172.pdf"
+            },
+            {
+                "code": 173,
+                "url": "question/CSE2217/mid/CSE2217_Mid_173.pdf"
+            },
+            {
+                "code": 181,
+                "url": "question/CSE2217/mid/CSE2217_Mid_181.pdf"
+            },
+            {
+                "code": 182,
+                "url": "question/CSE2217/mid/CSE2217_Mid_182.pdf"
+            },
+            {
+                "code": 191,
+                "url": "question/CSE2217/mid/CSE2217_Mid_191.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/CSE2217/mid/CSE2217_Mid_203.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE2217/mid/CSE2217_Mid_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE2217/mid/CSE2217_Mid_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE2217/mid/CSE2217_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE2217/mid/CSE2217_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE2217/mid/CSE2217_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE2217/mid/CSE2217_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE2217/mid/CSE2217_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE2217/mid/CSE2217_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE2217/mid/CSE2217_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 171,
+                "url": "question/CSE2217/final/CSE2217_Final_171.pdf"
+            },
+            {
+                "code": 172,
+                "url": "question/CSE2217/final/CSE2217_Final_172.pdf"
+            },
+            {
+                "code": 173,
+                "url": "question/CSE2217/final/CSE2217_Final_173.pdf"
+            },
+            {
+                "code": 182,
+                "url": "question/CSE2217/final/CSE2217_Final_182.pdf"
+            },
+            {
+                "code": 191,
+                "url": "question/CSE2217/final/CSE2217_Final_191.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/CSE2217/final/CSE2217_Final_203.pdf"
+            },
+            {
+                "code": 211,
+                "url": "question/CSE2217/final/CSE2217_Final_211.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE2217/final/CSE2217_Final_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE2217/final/CSE2217_Final_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE2217/final/CSE2217_Final_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE2217/final/CSE2217_Final_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE2217/final/CSE2217_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE2217/final/CSE2217_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE2217/final/CSE2217_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE2217/final/CSE2217_Final_233.pdf"
+            }
+        ],
+        "midSolve": "question/CSE2217/mid/CSE2217_Mid_Solution.pdf",
+        "finalSolve": "null"
+    },
+    {
+        "id": "MATH2205",
+        "title": "Probability and Statistics",
+        "code": "MATH 2205",
+        "abbr": "PS",
+        "trimester": 5,
+        "colorOne": "rgb(103,30,117)",
+        "colorTwo": "rgb(252,76,2)",
+        "css":"linear-gradient(-10deg, rgba(103,30,117,1) 11.2%, rgba(252,76,2,1) 91.1% )",
+        "mid": [
+            {
+                "code": 202,
+                "url": "question/MATH2205/mid/MATH2205_Mid_202.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/MATH2205/mid/MATH2205_Mid_213.pdf"
+            },
+            {
+                "code": "221-A",
+                "url": "question/MATH2205/mid/MATH2205_Mid_221_A.pdf"
+            },
+            {
+                "code": "221-B",
+                "url": "question/MATH2205/mid/MATH2205_Mid_221_B.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/MATH2205/mid/MATH2205_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/MATH2205/mid/MATH2205_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/MATH2205/mid/MATH2205_Mid_232.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/MATH2205/mid/MATH2205_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 202,
+                "url": "question/MATH2205/final/MATH2205_Final_202.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/MATH2205/final/MATH2205_Final_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/MATH2205/final/MATH2205_Final_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/MATH2205/final/MATH2205_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/MATH2205/final/MATH2205_Final_231.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE3313",
+        "title": "Computer Architecture",
+        "code": "CSE 3313",
+        "abbr": "CA",
+        "trimester": 6,
+        "colorOne": "rgb(204, 133, 93)",
+        "colorTwo": "rgb(51, 126, 212)",
+        "css":"radial-gradient(at left top, rgb(204, 133, 93), rgb(51, 126, 212))",
+        "mid": [
+            {
+                "code": 172,
+                "url": "question/CSE3313/mid/CSE3313_Mid_172.pdf"
+            },
+            {
+                "code": 173,
+                "url": "question/CSE3313/mid/CSE3313_Mid_173.pdf"
+            },
+            {
+                "code": 181,
+                "url": "question/CSE3313/mid/CSE3313_Mid_181.pdf"
+            },
+            {
+                "code": 182,
+                "url": "question/CSE3313/mid/CSE3313_Mid_182.pdf"
+            },
+            {
+                "code": 191,
+                "url": "question/CSE3313/mid/CSE3313_Mid_191.pdf"
+            },
+            {
+                "code": 192,
+                "url": "question/CSE3313/mid/CSE3313_Mid_192.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE3313/mid/CSE3313_Mid_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE3313/mid/CSE3313_Mid_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE3313/mid/CSE3313_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE3313/mid/CSE3313_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE3313/mid/CSE3313_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE3313/mid/CSE3313_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE3313/mid/CSE3313_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE3313/mid/CSE3313_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE3313/mid/CSE3313_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 172,
+                "url": "question/CSE3313/final/CSE3313_Final_172.pdf"
+            },
+            {
+                "code": 173,
+                "url": "question/CSE3313/final/CSE3313_Final_173.pdf"
+            },
+            {
+                "code": 181,
+                "url": "question/CSE3313/final/CSE3313_Final_181.pdf"
+            },
+            {
+                "code": 182,
+                "url": "question/CSE3313/final/CSE3313_Final_182.pdf"
+            },
+            {
+                "code": 192,
+                "url": "question/CSE3313/final/CSE3313_Final_192.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/CSE3313/final/CSE3313_Final_202.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE3313/final/CSE3313_Final_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE3313/final/CSE3313_Final_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE3313/final/CSE3313_Final_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE3313/final/CSE3313_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE3313/final/CSE3313_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE3313/final/CSE3313_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE3313/final/CSE3313_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE3313/final/CSE3313_Final_241.pdf"
+            }
+        ],
+        "midSolve": "question/CSE3313/mid/CSE3313_Mid_Solution.pdf",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE3811",
+        "title": "Artificial Intelligence",
+        "code": "CSE 3811",
+        "abbr": "AI",
+        "trimester": 7,
+        "colorOne": "rgb(153, 27, 27)",
+        "colorTwo": "#FFFF00",
+        "css":"linear-gradient(130deg, rgb(153, 27, 27) 25%, rgb(202, 138, 4), rgb(234, 179, 8), #FFFF00)",
+        "mid": [
+            {
+                "code": 181,
+                "url": "question/CSE3811/mid/CSE3811_Mid_181.pdf"
+            },
+            {
+                "code": 182,
+                "url": "question/CSE3811/mid/CSE3811_Mid_182.pdf"
+            },
+            {
+                "code": 183,
+                "url": "question/CSE3811/mid/CSE3811_Mid_183.pdf"
+            },
+            {
+                "code": 191,
+                "url": "question/CSE3811/mid/CSE3811_Mid_191.pdf"
+            },
+            {
+                "code": 192,
+                "url": "question/CSE3811/mid/CSE3811_Mid_192.pdf"
+            },
+            {
+                "code": 193,
+                "url": "question/CSE3811/mid/CSE3811_Mid_193.pdf"
+            },
+            {
+                "code": 201,
+                "url": "question/CSE3811/mid/CSE3811_Mid_201.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/CSE3811/mid/CSE3811_Mid_202.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/CSE3811/mid/CSE3811_Mid_203.pdf"
+            },
+            {
+                "code": "203-M",
+                "url": "question/CSE3811/mid/CSE3811_Mid_203_M.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE3811/mid/CSE3811_Mid_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE3811/mid/CSE3811_Mid_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE3811/mid/CSE3811_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE3811/mid/CSE3811_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE3811/mid/CSE3811_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE3811/mid/CSE3811_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE3811/mid/CSE3811_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE3811/mid/CSE3811_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE3811/mid/CSE3811_Mid_241.pdf"
+            },
+            {
+                "code": 242,
+                "url": "question/CSE3811/mid/CSE3811_Mid_242.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 181,
+                "url": "question/CSE3811/final/CSE3811_Final_181.pdf"
+            },
+            {
+                "code": 182,
+                "url": "question/CSE3811/final/CSE3811_Final_182.pdf"
+            },
+            {
+                "code": 183,
+                "url": "question/CSE3811/final/CSE3811_Final_183.pdf"
+            },
+            {
+                "code": 191,
+                "url": "question/CSE3811/final/CSE3811_Final_191.pdf"
+            },
+            {
+                "code": 192,
+                "url": "question/CSE3811/final/CSE3811_Final_192.pdf"
+            },
+            {
+                "code": 193,
+                "url": "question/CSE3811/final/CSE3811_Final_193.pdf"
+            },
+            {
+                "code": 201,
+                "url": "question/CSE3811/final/CSE3811_Final_201.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/CSE3811/final/CSE3811_Final_202.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/CSE3811/final/CSE3811_Final_203.pdf"
+            },
+            {
+                "code": 211,
+                "url": "question/CSE3811/final/CSE3811_Final_211.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE3811/final/CSE3811_Final_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE3811/final/CSE3811_Final_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE3811/final/CSE3811_Final_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE3811/final/CSE3811_Final_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE3811/final/CSE3811_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE3811/final/CSE3811_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE3811/final/CSE3811_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE3811/final/CSE3811_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE3811/final/CSE3811_Final_241.pdf"
+            },
+            {
+                "code": 242,
+                "url": "question/CSE3811/final/CSE3811_Final_242.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE4325",
+        "title": "Microprocessors and Microcontrollers",
+        "code": "CSE 4325",
+        "abbr": "MM",
+        "trimester": 8,
+        "colorOne": "rgb(0,40,70)",
+        "colorTwo": "rgb(255,175,123)",
+        "css":"linear-gradient(111.1deg, rgb(0,40,70) -4.8%, rgba(255,115,115,1) 82.7%, rgb(255,175,123) 97.2% )",
+        "mid": [
+            {
+                "code": 193,
+                "url": "question/CSE4325/mid/CSE4325_Mid_193.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE4325/mid/CSE4325_Mid_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE4325/mid/CSE4325_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE4325/mid/CSE4325_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE4325/mid/CSE4325_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE4325/mid/CSE4325_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE4325/mid/CSE4325_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE4325/mid/CSE4325_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE4325/mid/CSE4325_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 221,
+                "url": "question/CSE4325/final/CSE4325_Final_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE4325/final/CSE4325_Final_222.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE4325/final/CSE4325_Final_231.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE3711",
+        "title": "Computer Networks",
+        "code": "CSE 3711",
+        "abbr": "CN",
+        "trimester": 8,
+        "colorOne": "#665F00",
+        "colorTwo": "#FFF3A8",
+        "css":"linear-gradient( 65deg, hsl(56deg 100% 20%) 0%, hsl(55deg 100% 33%) 22%, hsl(55deg 100% 42%) 46%,  hsl(55deg 100% 50%) 70%, hsl(52deg 100% 83%) 92%, hsl(51deg 100% 91%) 98%, hsl(0deg 0% 100%) 100%)",
+        "mid": [
+            {
+                "code": 172,
+                "url": "question/CSE3711/mid/CSE3711_Mid_172.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/CSE3711/mid/CSE3711_Mid_202.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/CSE3711/mid/CSE3711_Mid_203.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE3711/mid/CSE3711_Mid_212.pdf"
+            },
+            {
+                "code": "213-A",
+                "url": "question/CSE3711/mid/CSE3711_Mid_213_A.pdf"
+            },
+            {
+                "code": "213-E",
+                "url": "question/CSE3711/mid/CSE3711_Mid_213_E.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE3711/mid/CSE3711_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE3711/mid/CSE3711_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE3711/mid/CSE3711_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE3711/mid/CSE3711_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE3711/mid/CSE3711_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE3711/mid/CSE3711_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE3711/mid/CSE3711_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 201,
+                "url": "question/CSE3711/final/CSE3711_Final_201.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/CSE3711/final/CSE3711_Final_202.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE3711/final/CSE3711_Final_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE3711/final/CSE3711_Final_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE3711/final/CSE3711_Final_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE3711/final/CSE3711_Final_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE3711/final/CSE3711_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE3711/final/CSE3711_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE3711/final/CSE3711_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE3711/final/CSE3711_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE3711/final/CSE3711_Final_241.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE3411",
+        "title": "System Analysis and Design",
+        "code": "CSE 3411",
+        "abbr": "SAD",
+        "trimester": 8,
+        "colorOne": "#FF1F96",
+        "colorTwo": "#FFE357",
+        "css":"linear-gradient( 70deg, hsl(328deg 100% 56%) 0%, hsl(5deg 100% 54%) 48%, hsl(41deg 100% 51%) 73%, hsl(50deg 100% 67%) 89%, hsl(58deg 100% 84%) 100% )",
+        "mid": [
+            {
+                "code": 202,
+                "url": "question/CSE3411/mid/CSE3411_Mid_202.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE3411/mid/CSE3411_Mid_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE3411/mid/CSE3411_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE3411/mid/CSE3411_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE3411/mid/CSE3411_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE3411/mid/CSE3411_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE3411/mid/CSE3411_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE3411/mid/CSE3411_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE3411/mid/CSE3411_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 202,
+                "url": "question/CSE3411/final/CSE3411_Final_202.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE3411/final/CSE3411_Final_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE3411/final/CSE3411_Final_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE3411/final/CSE3411_Final_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE3411/final/CSE3411_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE3411/final/CSE3411_Final_231.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE3411/final/CSE3411_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE3411/final/CSE3411_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE3411/final/CSE3411_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE3411/final/CSE3411_Final_241.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE3421",
+        "title": "Software Engineering",
+        "code": "CSE 3421",
+        "abbr": "SWE",
+        "trimester": 9,
+        "colorOne": "rgb(255,243,110)",
+        "colorTwo": "rgb(5,54,154)",
+        "css":"linear-gradient(-165deg, rgb(255,243,110) 16.9%, rgba(30,204,214,1) 55.1%, rgb(5,54,154) 90.7% )",
+        "mid": [
+            {
+                "code": 192,
+                "url": "question/CSE3421/mid/CSE3421_Mid_192.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE3421/mid/CSE3421_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/CSE3421/mid/CSE3421_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE3421/mid/CSE3421_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE3421/mid/CSE3421_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE3421/mid/CSE3421_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE3421/mid/CSE3421_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE3421/mid/CSE3421_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 192,
+                "url": "question/CSE3421/final/CSE3421_Final_192.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/CSE3421/final/CSE3421_Final_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE3421/final/CSE3421_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE3421/final/CSE3421_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE3421/final/CSE3421_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE3421/final/CSE3421_Final_241.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "PMG4101",
+        "title": "Project Management",
+        "code": "PMG 4101",
+        "abbr": "PM",
+        "trimester": 9,
+        "colorOne": "#6C0994",
+        "colorTwo": "#95FF32",
+        "css":"linear-gradient( 10deg, hsl(283deg 89% 31%) 0%, hsl(348deg 10% 52%) 40%, hsl(87deg 57% 59%) 80%, hsl(91deg 100% 60%) 100% )",
+        "mid": [
+            {
+                "code": 221,
+                "url": "question/PMG4101/mid/PMG4101_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/PMG4101/mid/PMG4101_Mid_222.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/PMG4101/mid/PMG4101_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/PMG4101/mid/PMG4101_Mid_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/PMG4101/mid/PMG4101_Mid_241.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 222,
+                "url": "question/PMG4101/final/PMG4101_Final_222.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/PMG4101/final/PMG4101_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/PMG4101/final/PMG4101_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/PMG4101/final/PMG4101_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/PMG4101/final/PMG4101_Final_241.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE4509",
+        "title": "Operating Systems",
+        "code": "CSE 4509",
+        "abbr": "OS",
+        "trimester": 10,
+        "colorOne": "#019859",
+        "colorTwo": "#d86b18",
+        "css":"linear-gradient( 110deg, hsl(155deg 99% 30%) 0%, hsl(83deg 62% 35%) 20%, hsl(49deg 100% 32%) 40%, hsl(26deg 80% 47%) 60%, hsl(355deg 95% 63%) 80%, hsl(328deg 100% 60%) 100% )",
+        "mid": [
+            {
+                "code": 181,
+                "url": "question/CSE4509/mid/CSE4509_Mid_181.pdf"
+            },
+            {
+                "code": 182,
+                "url": "question/CSE4509/mid/CSE4509_Mid_182.pdf"
+            },
+            {
+                "code": 201,
+                "url": "question/CSE4509/mid/CSE4509_Mid_201.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE4509/mid/CSE4509_Mid_212.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE4509/mid/CSE4509_Mid_221.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE4509/mid/CSE4509_Mid_231.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE4509/mid/CSE4509_Mid_233.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 171,
+                "url": "question/CSE4509/final/CSE4509_Final_171.pdf"
+            },
+            {
+                "code": 172,
+                "url": "question/CSE4509/final/CSE4509_Final_172.pdf"
+            },
+            {
+                "code": 173,
+                "url": "question/CSE4509/final/CSE4509_Final_173.pdf"
+            },
+            {
+                "code": 181,
+                "url": "question/CSE4509/final/CSE4509_Final_181.pdf"
+            },
+            {
+                "code": 182,
+                "url": "question/CSE4509/final/CSE4509_Final_182.pdf"
+            },
+            {
+                "code": 193,
+                "url": "question/CSE4509/final/CSE4509_Final_193.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE4509/final/CSE4509_Final_212.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE4509/final/CSE4509_Final_231.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE4509/final/CSE4509_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE4509/final/CSE4509_Final_241.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE4531",
+        "title": "Computer Security",
+        "code": "CSE 4531",
+        "abbr": "CS",
+        "trimester": 10,
+        "colorOne": "#794B00",
+        "colorTwo": "#8432FF",
+        "css":"linear-gradient( 190deg, hsl(37deg 100% 24%) 0%, hsl(329deg 37% 41%) 30%, hsl(276deg 59% 51%) 70%, hsl(264deg 100% 60%) 100% )",
+        "mid": [
+
+        ],
+        "final": [
+            {
+                "code": 212,
+                "url": "question/CSE4531/final/CSE4531_Final_212.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE4531/final/CSE4531_Final_213.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/CSE4531/final/CSE4531_Final_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE4531/final/CSE4531_Final_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/CSE4531/final/CSE4531_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE4531/final/CSE4531_Final_241.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "BIO3105",
+        "title": "Biology for Engineers",
+        "code": "BIO 3105",
+        "abbr": "Biology",
+        "trimester": 9,
+        "colorOne": "rgb(7, 3, 98)",
+        "colorTwo": "rgb(239, 186, 83)",
+        "css":"linear-gradient(68.2deg, rgb(7, 3, 98) -0.1%, rgb(179, 26, 132) 47.7%, rgb(239, 186, 83) 100.2%)",
+        "mid": [
+            {
+                "code": 221,
+                "url": "question/BIO3105/mid/BIO3105_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/BIO3105/mid/BIO3105_Mid_222.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/BIO3105/mid/BIO3105_Mid_223.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/BIO3105/mid/BIO3105_Mid_231.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/BIO3105/mid/BIO3105_Mid_232.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/BIO3105/mid/BIO3105_Mid_233.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 221,
+                "url": "question/BIO3105/final/BIO3105_Final_221.pdf"
+            },
+            {
+                "code": 223,
+                "url": "question/BIO3105/final/BIO3105_Final_223.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/BIO3105/final/BIO3105_Final_232.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE3715",
+        "title": "Data Communication",
+        "code": "CSE 3715",
+        "abbr": "DC",
+        "trimester": 10,
+        "colorOne": "#AA0000",
+        "colorTwo": "#FFFF00",
+        "css":"linear-gradient(30deg, #AA0000, #FF0000, #FF6622, #FFFF00)",
+        "mid": [
+            {
+                "code": 173,
+                "url": "question/CSE3715/mid/CSE3715_Mid_173.pdf"
+            },
+            {
+                "code": 191,
+                "url": "question/CSE3715/mid/CSE3715_Mid_191.pdf"
+            },
+            {
+                "code": 192,
+                "url": "question/CSE3715/mid/CSE3715_Mid_192.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/CSE3715/mid/CSE3715_Mid_202.pdf"
+            },
+            {
+                "code": 212,
+                "url": "question/CSE3715/mid/CSE3715_Mid_212.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 193,
+                "url": "question/CSE3715/final/CSE3715_Final_193.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/CSE3715/final/CSE3715_Final_202.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/CSE3715/final/CSE3715_Final_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/CSE3715/final/CSE3715_Final_221.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE3715/final/CSE3715_Final_241.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "IPE3401",
+        "title": "Industrial and Operational Management",
+        "code": "IPE 3401",
+        "abbr": "IOM",
+        "trimester": 10,
+        "colorOne": "#006117",
+        "colorTwo": "#B8FF1F",
+        "css":"linear-gradient( 160deg, hsl(134deg 100% 19%) 8%, hsl(130deg 100% 34%) 53%, hsl(123deg 100% 49%) 73%, hsl(90deg 99% 51%) 89%, hsl(79deg 100% 56%) 100% )",
+        "mid": [
+            {
+                "code": 202,
+                "url": "question/IPE3401/mid/IPE3401_Mid_202.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/IPE3401/mid/IPE3401_Mid_221.pdf"
+            },
+            {
+                "code": 222,
+                "url": "question/IPE3401/mid/IPE3401_Mid_222.pdf"
+            },
+            {
+                "code": 231,
+                "url": "question/IPE3401/mid/IPE3401_Mid_231.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 182,
+                "url": "question/IPE3401/final/IPE3401_Final_182.pdf"
+            },
+            {
+                "code": 202,
+                "url": "question/IPE3401/final/IPE3401_Final_202.pdf"
+            },
+            {
+                "code": 203,
+                "url": "question/IPE3401/final/IPE3401_Final_203.pdf"
+            },
+            {
+                "code": 211,
+                "url": "question/IPE3401/final/IPE3401_Final_211.pdf"
+            },
+            {
+                "code": 213,
+                "url": "question/IPE3401/final/IPE3401_Final_213.pdf"
+            },
+            {
+                "code": 221,
+                "url": "question/IPE3401/final/IPE3401_Final_221.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE4587",
+        "title": "Cloud Computing",
+        "code": " CSE 4587",
+        "abbr": "CC",
+        "trimester": 10,
+        "colorOne": "#36B593",
+        "colorTwo": "#D8FCC5",
+        "css":"linear-gradient( 75deg, hsl(178deg 100% 26%) 0%, hsl(164deg 54% 46%) 56%, hsl(153deg 74% 62%) 76%, hsl(143deg 100% 76%) 88%, hsl(127deg 97% 85%) 97%, hsl(99deg 90% 88%) 101% )",
+        "mid": [
+            {
+                "code": 222,
+                "url": "question/CSE4587/mid/CSE4587_Mid_222.pdf"
+            },
+            {
+                "code": 232,
+                "url": "question/CSE4587/mid/CSE4587_Mid_232.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 232,
+                "url": "question/CSE4587/final/CSE4587_Final_232.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    }
+]
