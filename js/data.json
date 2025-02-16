@@ -2256,10 +2256,14 @@
             {
                 "code": 242,
                 "url": "question/CSE4325/final/CSE4325_Final_242.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/CSE4325/final/CSE4325_Final_243.pdf"
             }
         ],
-        "midSolve": "null",
-        "finalSolve": "null"
+        "midSolve": "question/CSE4325/mid/CSE4325_Mid_Solution.pdf",
+        "finalSolve": "question/CSE4325/final/CSE4325_Final_Solution.pdf"
     },
     {
         "id": "CSE3711",
