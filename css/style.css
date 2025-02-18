@@ -18,6 +18,7 @@ a {
 }
 .questionBody {
     overscroll-behavior: contain;
+    overflow: hidden;
 }
 .menuBar {
     background-color: #ff6622;
