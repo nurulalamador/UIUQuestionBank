@@ -10,6 +10,8 @@ var termName;
 var trimesterName;
 var pdfUrl;
 
+var apiKey = location.hostname == "uiuqb.vercel.app" ? "ebxof7L8oYqYNSR72V78" : "0YXSc8sggoBxSrP4Qn9Q";
+
 function loadQuestion(courses) {
     Courses = courses.filter(function (el) {
         return el.id == getId;
@@ -58,7 +60,7 @@ function loadQuestion(courses) {
 
     WebViewer({
         path: './WebViewer/lib',
-        licenseKey: 'ebxof7L8oYqYNSR72V78',
+        licenseKey: apiKey,
         initialDoc: pdfUrl,
         // disabledElements: [
         //     'toggleNotesButton'
