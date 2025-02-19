@@ -60,17 +60,14 @@ function loadQuestion(courses) {
         path: './WebViewer/lib',
         licenseKey: 'ebxof7L8oYqYNSR72V78',
         initialDoc: pdfUrl,
-        disabledElements: [
-            'toolbarGroup-Shapes',
-            'toolbarGroup-Edit',
-            'toolbarGroup-Insert',
-            'toolbarGroup-FillAndSign',
-            'toggleNotesButton'
-        ]
-    }, document.getElementById('viewer'))
-        .then(instance => {
-            instance.UI.setToolbarGroup('toolbarGroup-View');
-        });
+        // disabledElements: [
+        //     'toggleNotesButton'
+        // ]
+    }, document.getElementById('viewer'));
+    
+        // .then(instance => {
+        //     instance.UI.setToolbarGroup('toolbarGroup-View');
+        // });
 
 
     document.getElementById("downloadPDF").href = pdfUrl;
