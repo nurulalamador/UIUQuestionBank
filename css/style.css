@@ -755,3 +755,7 @@ iframe {
     font-size: 14px;
     margin: 2px;
 }
+
+#viewer {
+    height: calc(100dvh - 62px);
+}
