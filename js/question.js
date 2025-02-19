@@ -64,7 +64,8 @@ function loadQuestion(courses) {
         initialDoc: pdfUrl,
         disabledElements: [
             'menuButton',
-            'contextMenuPopup'
+            'contextMenuPopup',
+            'viewControlsButton'
         ]
     }, document.getElementById('viewer'))
 
