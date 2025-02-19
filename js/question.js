@@ -62,14 +62,32 @@ function loadQuestion(courses) {
         path: './WebViewer/lib',
         licenseKey: apiKey,
         initialDoc: pdfUrl,
-        // disabledElements: [
-        //     'toggleNotesButton'
-        // ]
-    }, document.getElementById('viewer'));
-    
-        // .then(instance => {
-        //     instance.UI.setToolbarGroup('toolbarGroup-View');
-        // });
+        disabledElements: [
+            'menuButton',
+            'contextMenuPopup'
+        ]
+    }, document.getElementById('viewer'))
+
+        .then(instance => {
+            instance.UI.contextMenuPopup.add({
+                type: 'actionButton',
+                label: 'some-label',
+                onClick: () => console.log('clicked'),
+            });
+
+            instance.UI.setHeaderItems((header) => {
+                header.getHeader('default').push({
+                    img: "icon-header-full-screen",
+                    index: -1,
+                    type: "actionButton",
+                    element: 'fullScreenButton',
+                    onClick: () => {
+                        instance.UI.toggleFullScreen()
+                    },
+                    title: 'Full Screen',
+                });
+            });
+        });
 
 
     document.getElementById("downloadPDF").href = pdfUrl;
