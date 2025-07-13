@@ -1800,6 +1800,18 @@
             {
                 "code": 233,
                 "url": "question/CSE2217/final/CSE2217_Final_233.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/CSE2217/final/CSE2217_Final_241.pdf"
+            },
+            {
+                "code": 242,
+                "url": "question/CSE2217/final/CSE2217_Final_242.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/CSE2217/final/CSE2217_Final_243.pdf"
             }
         ],
         "midSolve": "question/CSE2217/mid/CSE2217_Mid_Solution.pdf",
