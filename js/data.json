@@ -2226,6 +2226,14 @@
             {
                 "code": 241,
                 "url": "question/CSE4325/mid/CSE4325_Mid_241.pdf"
+            },
+            {
+                "code": 242,
+                "url": "question/CSE4325/mid/CSE4325_Mid_242.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/CSE4325/mid/CSE4325_Mid_243.pdf"
             }
         ],
         "final": [
@@ -2855,6 +2863,18 @@
             {
                 "code": 231,
                 "url": "question/IPE3401/mid/IPE3401_Mid_231.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/IPE3401/mid/IPE3401_Mid_233.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/IPE3401/mid/IPE3401_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/IPE3401/mid/IPE3401_Mid_251.pdf"
             }
         ],
         "final": [
@@ -2881,9 +2901,25 @@
             {
                 "code": 221,
                 "url": "question/IPE3401/final/IPE3401_Final_221.pdf"
+            },
+            {
+                "code": 233,
+                "url": "question/IPE3401/final/IPE3401_Final_233.pdf"
+            },
+            {
+                "code": 242,
+                "url": "question/IPE3401/final/IPE3401_Final_242.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/IPE3401/final/IPE3401_Final_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/IPE3401/final/IPE3401_Final_251.pdf"
             }
         ],
-        "midSolve": "null",
+        "midSolve": "question/IPE3401/mid/IPE3401_Mid_Solution.pdf",
         "finalSolve": "null"
     },
     {
