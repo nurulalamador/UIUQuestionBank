@@ -861,6 +861,14 @@
             {
                 "code": 241,
                 "url": "question/CSE1325/mid/CSE1325_Mid_241.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/CSE1325/mid/CSE1325_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE1325/mid/CSE1325_Mid_251.pdf"
             }
         ],
         "final": [
@@ -997,6 +1005,18 @@
             {
                 "code": 241,
                 "url": "question/EEE2113/mid/EEE2113_Mid_241.pdf"
+            },
+            {
+                "code": 242,
+                "url": "question/EEE2113/mid/EEE2113_Mid_242.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/EEE2113/mid/EEE2113_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/EEE2113/mid/EEE2113_Mid_251.pdf"
             }
         ],
         "final": [
@@ -1101,6 +1121,14 @@
             {
                 "code": 241,
                 "url": "question/EEE2123/mid/EEE2123_Mid_241.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/EEE2123/mid/EEE2123_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/EEE2123/mid/EEE2123_Mid_251.pdf"
             }
         ],
         "final": [
@@ -1245,6 +1273,14 @@
             {
                 "code": 241,
                 "url": "question/CSE3521/mid/CSE3521_Mid_241.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/CSE3521/mid/CSE3521_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE3521/mid/CSE3521_Mid_251.pdf"
             }
         ],
         "final": [
@@ -2422,10 +2458,6 @@
             {
                 "code": 241,
                 "url": "question/CSE3711/mid/CSE3711_Mid_241.pdf"
-            },
-            {
-                "code": 242,
-                "url": "question/CSE3711/mid/CSE3711_Mid_242.pdf"
             },
             {
                 "code": 243,
