@@ -2270,6 +2270,14 @@
             {
                 "code": 242,
                 "url": "question/CSE3811/mid/CSE3811_Mid_242.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/CSE3811/mid/CSE3811_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE3811/mid/CSE3811_Mid_251.pdf"
             }
         ],
         "final": [
@@ -2361,7 +2369,7 @@
         "id": "CSE4325",
         "title": "Microprocessors and Microcontrollers",
         "code": "CSE 4325",
-        "abbr": "MM",
+        "abbr": "MM MPMC",
         "trimester": 8,
         "colorOne": "rgb(0,40,70)",
         "colorTwo": "rgb(255,175,123)",
@@ -2410,6 +2418,10 @@
             {
                 "code": 243,
                 "url": "question/CSE4325/mid/CSE4325_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE4325/mid/CSE4325_Mid_251.pdf"
             }
         ],
         "final": [
@@ -2634,6 +2646,14 @@
             {
                 "code": 241,
                 "url": "question/CSE3411/mid/CSE3411_Mid_241.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/CSE3411/mid/CSE3411_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE3411/mid/CSE3411_Mid_251.pdf"
             }
         ],
         "final": [
@@ -2722,6 +2742,18 @@
             {
                 "code": 241,
                 "url": "question/CSE3421/mid/CSE3421_Mid_241.pdf"
+            },
+            {
+                "code": 242,
+                "url": "question/CSE3421/mid/CSE3421_Mid_242.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/CSE3421/mid/CSE3421_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE3421/mid/CSE3421_Mid_251.pdf"
             }
         ],
         "final": [
@@ -2748,6 +2780,18 @@
             {
                 "code": 241,
                 "url": "question/CSE3421/final/CSE3421_Final_241.pdf"
+            },
+            {
+                "code": 242,
+                "url": "question/CSE3421/final/CSE3421_Final_242.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/CSE3421/final/CSE3421_Final_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE3421/final/CSE3421_Final_251.pdf"
             }
         ],
         "midSolve": "null",
@@ -2782,6 +2826,14 @@
             {
                 "code": 241,
                 "url": "question/PMG4101/mid/PMG4101_Mid_241.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/PMG4101/mid/PMG4101_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/PMG4101/mid/PMG4101_Mid_251.pdf"
             }
         ],
         "final": [
@@ -2804,6 +2856,14 @@
             {
                 "code": 241,
                 "url": "question/PMG4101/final/PMG4101_Final_241.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/PMG4101/final/PMG4101_Final_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/PMG4101/final/PMG4101_Final_251.pdf"
             }
         ],
         "midSolve": "null",
@@ -2915,7 +2975,14 @@
         "colorTwo": "#8432FF",
         "css":"linear-gradient( 190deg, hsl(37deg 100% 24%) 0%, hsl(329deg 37% 41%) 30%, hsl(276deg 59% 51%) 70%, hsl(264deg 100% 60%) 100% )",
         "mid": [
-
+            {
+                "code": 243,
+                "url": "question/CSE4531/mid/CSE4531_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE4531/mid/CSE4531_Mid_251.pdf"
+            }
         ],
         "final": [
             {
