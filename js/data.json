@@ -1457,6 +1457,18 @@
             {
                 "code": 241,
                 "url": "question/CSE2233/mid/CSE2233_Mid_241.pdf"
+            },
+            {
+                "code": 242,
+                "url": "question/CSE2233/mid/CSE2233_Mid_242.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/CSE2233/mid/CSE2233_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE2233/mid/CSE2233_Mid_251.pdf"
             }
         ],
         "final": [
@@ -1685,6 +1697,18 @@
             {
                 "code": 241,
                 "url": "question/CSE2215/mid/CSE2215_Mid_241.pdf"
+            },
+            {
+                "code": 242,
+                "url": "question/CSE2215/mid/CSE2215_Mid_242.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/CSE2215/mid/CSE2215_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE2215/mid/CSE2215_Mid_251.pdf"
             }
         ],
         "final": [
@@ -1850,6 +1874,14 @@
             {
                 "code": 241,
                 "url": "question/CSE2217/mid/CSE2217_Mid_241.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/CSE2217/mid/CSE2217_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE2217/mid/CSE2217_Mid_251.pdf"
             }
         ],
         "final": [
@@ -2066,6 +2098,14 @@
             {
                 "code": 241,
                 "url": "question/CSE3313/mid/CSE3313_Mid_241.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/CSE3313/mid/CSE3313_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE3313/mid/CSE3313_Mid_251.pdf"
             }
         ],
         "final": [
@@ -2124,6 +2164,18 @@
             {
                 "code": 241,
                 "url": "question/CSE3313/final/CSE3313_Final_241.pdf"
+            },
+            {
+                "code": 242,
+                "url": "question/CSE3313/final/CSE3313_Final_242.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/CSE3313/final/CSE3313_Final_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE3313/final/CSE3313_Final_251.pdf"
             }
         ],
         "midSolve": "question/CSE3313/mid/CSE3313_Mid_Solution.pdf",
