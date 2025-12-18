@@ -465,6 +465,10 @@
             {
                 "code": 241,
                 "url": "question/MATH1151/mid/MATH1151_Mid_241.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/MATH1151/mid/MATH1151_Mid_251.pdf"
             }
         ],
         "final": [
@@ -2918,6 +2922,10 @@
             {
                 "code": 251,
                 "url": "question/CSE4509/mid/CSE4509_Mid_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/CSE4509/mid/CSE4509_Mid_252.pdf"
             }
         ],
         "final": [
@@ -3046,6 +3054,10 @@
             {
                 "code": 233,
                 "url": "question/BIO3105/mid/BIO3105_Mid_233.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/BIO3105/mid/BIO3105_Mid_251.pdf"
             }
         ],
         "final": [
@@ -3060,6 +3072,14 @@
             {
                 "code": 232,
                 "url": "question/BIO3105/final/BIO3105_Final_232.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/BIO3105/final/BIO3105_Final_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/BIO3105/final/BIO3105_Final_251.pdf"
             }
         ],
         "midSolve": "null",
