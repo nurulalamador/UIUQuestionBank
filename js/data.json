@@ -3264,6 +3264,46 @@
         ],
         "midSolve": "null",
         "finalSolve": "null"
+    },
+    {
+        "id": "CSE4165",
+        "title": "Web Programming",
+        "code": " CSE 4165",
+        "abbr": "WP",
+        "trimester": 10,
+        "colorOne": "#8F3FD6",
+        "colorTwo": "#F9E27D",
+        "css": "linear-gradient(132deg, hsl(268deg 78% 52%) 0%, hsl(241deg 65% 58%) 34%, hsl(213deg 72% 61%) 55%, hsl(187deg 68% 64%) 72%, hsl(156deg 74% 70%) 88%, hsl(128deg 81% 76%) 100%)",
+        "mid": [
+            {
+                "code": 243,
+                "url": "question/CSE4165/mid/CSE4165_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE4165/mid/CSE4165_Mid_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/CSE4165/mid/CSE4165_Mid_252.pdf"
+            }
+        ],
+        "final": [
+            {
+                "code": 243,
+                "url": "question/CSE4165/final/CSE4165_Final_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE4165/final/CSE4165_Final_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/CSE4165/final/CSE4165_Final_252.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
     }
 ]
 
