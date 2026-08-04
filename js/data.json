@@ -3431,6 +3431,18 @@
             {
                 "code": 241,
                 "url": "question/CSE4509/final/CSE4509_Final_241.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/CSE4509/final/CSE4509_Final_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE4509/final/CSE4509_Final_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/CSE4509/final/CSE4509_Final_252.pdf"
             }
         ],
         "midSolve": "null",
@@ -3797,3 +3809,4 @@
         "finalSolve": "null"
     }
 ]
+
