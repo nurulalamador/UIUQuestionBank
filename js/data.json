@@ -740,6 +740,18 @@
             {
                 "code": 251,
                 "url": "question/CSE1115/mid/CSE1115_Mid_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/CSE1115/mid/CSE1115_Mid_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/CSE1115/mid/CSE1115_Mid_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/CSE1115/mid/CSE1115_Mid_261.pdf"
             }
         ],
         "final": [
@@ -834,6 +846,18 @@
             {
                 "code": 251,
                 "url": "question/CSE1115/final/CSE1115_Final_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/CSE1115/final/CSE1115_Final_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/CSE1115/final/CSE1115_Final_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/CSE1115/final/CSE1115_Final_261.pdf"
             }
         ],
         "midSolve": "question/CSE1115/mid/CSE1115_Mid_Solution.pdf",
@@ -1332,6 +1356,26 @@
             {
                 "code": 241,
                 "url": "question/PHY2105/mid/PHY2105_Mid_241.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/PHY2105/mid/PHY2105_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/PHY2105/mid/PHY2105_Mid_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/PHY2105/mid/PHY2105_Mid_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/PHY2105/mid/PHY2105_Mid_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/PHY2105/mid/PHY2105_Mid_261.pdf"
             }
         ],
         "final": [
@@ -1370,6 +1414,26 @@
             {
                 "code": 233,
                 "url": "question/PHY2105/final/PHY2105_Final_233.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/PHY2105/final/PHY2105_Final_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/PHY2105/final/PHY2105_Final_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/PHY2105/final/PHY2105_Final_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/PHY2105/final/PHY2105_Final_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/PHY2105/final/PHY2105_Final_261.pdf"
             }
         ],
         "midSolve": "question/PHY2105/mid/PHY2105_Mid_Solution.pdf",
@@ -1888,6 +1952,18 @@
             {
                 "code": 251,
                 "url": "question/CSE2215/mid/CSE2215_Mid_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/CSE2215/mid/CSE2215_Mid_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/CSE2215/mid/CSE2215_Mid_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/CSE2215/mid/CSE2215_Mid_261.pdf"
             }
         ],
         "final": [
@@ -1974,6 +2050,26 @@
             {
                 "code": 241,
                 "url": "question/CSE2215/final/CSE2215_Final_241.pdf"
+            },
+            {
+                "code": 242,
+                "url": "question/CSE2215/final/CSE2215_Final_242.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE2215/final/CSE2215_Final_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/CSE2215/final/CSE2215_Final_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/CSE2215/final/CSE2215_Final_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/CSE2215/final/CSE2215_Final_261.pdf"
             }
 
         ],
@@ -2193,6 +2289,26 @@
             {
                 "code": 241,
                 "url": "question/MATH2205/mid/MATH2205_Mid_241.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/MATH2205/mid/MATH2205_Mid_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/MATH2205/mid/MATH2205_Mid_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/MATH2205/mid/MATH2205_Mid_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/MATH2205/mid/MATH2205_Mid_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/MATH2205/mid/MATH2205_Mid_261.pdf"
             }
         ],
         "final": [
@@ -2215,6 +2331,30 @@
             {
                 "code": 231,
                 "url": "question/MATH2205/final/MATH2205_Final_231.pdf"
+            },
+            {
+                "code": 241,
+                "url": "question/MATH2205/final/MATH2205_Final_241.pdf"
+            },
+            {
+                "code": 242,
+                "url": "question/MATH2205/final/MATH2205_Final_242.pdf"
+            },
+            {
+                "code": 243,
+                "url": "question/MATH2205/final/MATH2205_Final_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/MATH2205/final/MATH2205_Final_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/MATH2205/final/MATH2205_Final_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/MATH2205/final/MATH2205_Final_253.pdf"
             }
         ],
         "midSolve": "null",
@@ -2657,6 +2797,18 @@
             {
                 "code": 251,
                 "url": "question/CSE4325/mid/CSE4325_Mid_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/CSE4325/mid/CSE4325_Mid_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/CSE4325/mid/CSE4325_Mid_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/CSE4325/mid/CSE4325_Mid_261.pdf"
             }
         ],
         "final": [
@@ -2765,6 +2917,18 @@
             {
                 "code": 251,
                 "url": "question/CSE3711/mid/CSE3711_Mid_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/CSE3711/mid/CSE3711_Mid_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/CSE3711/mid/CSE3711_Mid_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/CSE3711/mid/CSE3711_Mid_261.pdf"
             }
         ],
         "final": [
@@ -2831,6 +2995,18 @@
             {
                 "code": 251,
                 "url": "question/CSE3711/final/CSE3711_Final_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/CSE3711/final/CSE3711_Final_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/CSE3711/final/CSE3711_Final_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/CSE3711/final/CSE3711_Final_261.pdf"
             }
         ],
         "midSolve": "null",
@@ -2889,6 +3065,18 @@
             {
                 "code": 251,
                 "url": "question/CSE3411/mid/CSE3411_Mid_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/CSE3411/mid/CSE3411_Mid_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/CSE3411/mid/CSE3411_Mid_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/CSE3411/mid/CSE3411_Mid_261.pdf"
             }
         ],
         "final": [
@@ -2989,6 +3177,18 @@
             {
                 "code": 251,
                 "url": "question/CSE3421/mid/CSE3421_Mid_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/CSE3421/mid/CSE3421_Mid_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/CSE3421/mid/CSE3421_Mid_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/CSE3421/mid/CSE3421_Mid_261.pdf"
             }
         ],
         "final": [
@@ -3181,6 +3381,14 @@
             {
                 "code": 252,
                 "url": "question/CSE4509/mid/CSE4509_Mid_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/CSE4509/mid/CSE4509_Mid_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/CSE4509/mid/CSE4509_Mid_261.pdf"
             }
         ],
         "final": [
@@ -3433,6 +3641,14 @@
             {
                 "code": 212,
                 "url": "question/CSE3715/mid/CSE3715_Mid_212.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE3715/mid/CSE3715_Mid_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/CSE3715/mid/CSE3715_Mid_252.pdf"
             }
         ],
         "final": [
@@ -3455,6 +3671,14 @@
             {
                 "code": 241,
                 "url": "question/CSE3715/final/CSE3715_Final_241.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE3715/final/CSE3715_Final_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/CSE3715/final/CSE3715_Final_252.pdf"
             }
         ],
         "midSolve": "null",
