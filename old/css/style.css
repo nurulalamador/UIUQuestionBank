@@ -1,0 +1,761 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: #eeeeee;
+    color: #666666;
+    -webkit-user-select: none; /* Safari */
+    user-select: none; /* Standard syntax */
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+.questionBody {
+    overscroll-behavior: contain;
+    overflow: hidden;
+}
+.menuBar {
+    background-color: #ff6622;
+    color: #ffffff;
+    padding: 6px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 901;
+}
+.menuBar .icon {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 6px 8px;
+    margin: 2px 6px;
+    font-size: 24px;
+    border-radius: 8px;
+}
+.menuBar .text {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 4px;
+    width: calc(100% - 103px);
+}
+.menuBar .text .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.menuBar .text .semiTitle {
+    font-size: 14px;
+    margin-top: 1px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.content {
+    padding: 6px;
+    max-width: 800px;
+    margin: auto;
+}
+.contentBox {
+    padding: 8px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 12px;
+}
+.contentBox .mainTitle {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 12px;
+}
+.contentBox .seeMore {
+    float: right;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    color: #ff6622;
+    font-size: 14px;
+}
+.contentBox .seeMore .text {
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 4px;
+}
+.contentBox .seeMore .icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 4px;
+    font-size: 18px;
+}
+.searchBox {
+    background-color: #cccccc;
+    margin: 6px 10px;
+    padding: 8px 12px;
+    border-radius: 100px;
+}
+.searchBox input {
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 3px;
+    width: calc(100% - 40px);
+}
+.searchBox .icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 3px;
+}
+.stickySearchBox {
+    position: sticky;
+    top: 56px;
+    padding: 6px 10px;
+    padding-top: 12px;
+    background: linear-gradient(#eeeeee 60%, rgb(238, 238, 238, 0));
+    z-index: 900;
+    max-width: 800px;
+    margin: auto;
+}
+.stickySearchBox .searchBox {
+    padding: 10px 14px;
+}
+.contentBox .searchBox {
+    background-color: #eeeeee;
+    margin-top: 16px;
+}
+.courseBoxContainer {
+    text-align: left;
+    padding: 4px;
+}
+.courseBoxContainer .courseBox {
+    border-radius: 10px;
+    background: #ff6622;
+    color: #ffffff;
+    margin: 8px 6px;
+    text-align: left;
+    height: 110px;
+    position: relative;
+}
+.courseBoxContainer .courseBox .text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    padding: 12px 18px;
+}
+.courseBoxContainer .courseBox .text .title {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px;
+}
+.courseBoxContainer .courseBox .text .semiTitle {
+    font-style: italic;
+    padding: 4px;
+    font-size: 12px;
+}
+.courseBoxContainer .courseBox .delete {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    color: #000000;
+    mix-blend-mode: screen;
+    padding: 8px 10px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.forCoursePage {
+    margin-top: 0;
+    padding: 6px;
+}
+
+
+.trimesterButton {
+    padding: 8px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 12px;
+    margin-top: 18px;
+    background-color: #ff6622;
+    color: #ffffff;
+    text-align: center;
+}
+.trimesterButton .text {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    margin: 6px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.trimesterButton .icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 6px;
+    font-size: 22px;
+}
+
+.notFound {
+    text-align: center;
+    padding: 12px;
+}
+.notFound .icon {
+    padding: 3px;
+    font-size: 80px;
+}
+.notFound .text .title{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px;
+}
+.notFound .text .semiTitle {
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+
+.rippleButton, .rippleButtonBlack {
+    position: relative;
+    overflow: hidden;
+}
+
+.rippleButton span {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -40px;
+    animation: ripple 1s;
+    opacity: 0;
+}
+.rippleButtonBlack span {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -40px;
+    animation: ripple 1s;
+    opacity: 0;
+}
+@keyframes ripple {
+    from {
+        opacity: 1;
+        transform: scale(0);
+    }
+    to {
+        opacity: 0;
+        transform: scale(10);
+    }
+}
+
+.trimesterBoxContainer {
+    text-align: center;
+    padding: 2px;
+}
+.trimesterBox {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(50% - 10px);
+    background-color: #eeeeee;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: right;
+    margin: 5px 3px;
+    padding: 5px;
+}
+.trimesterBox .text {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 45px);
+    text-align: center;
+}
+.trimesterBox .number {
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #ff6622;
+    color: #ffffff;
+}
+.courseInfoBox {
+    color: #ffffff;
+    padding: 12px;
+    text-align: center;
+}
+
+.courseInfoBox .title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 4px;
+}
+.courseInfoBox .semiTitle {
+    font-style: italic;
+    padding: 4px;
+    font-size: 12px;
+}
+
+
+.examTypeBoxContainer {
+    padding: 10px;
+    text-align: center;
+}
+.disable {
+    position: absolute;
+    background-color: rgba(255,255,255,0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;    
+}
+.examTypeBox {
+    position: relative;
+    background-color: #eeeeee;
+    border-radius: 12px;
+    text-align: center;
+    margin: 5px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(50% - 14px); 
+}
+.examTypeBox .icon {
+    font-size: 60px;
+    background-color: #ff6622;
+    color: #ffffff;
+    padding: 12px;
+    box-shadow: inset 0 0 0 1000px rgba(238,238,238,0.2);
+    text-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+.examTypeBox .text {
+    padding: 12px;
+}
+.examTypeBox .title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.questionBoxContainer {
+    text-align: center;
+    padding: 4px;
+    padding-top: 2px;
+}
+.questionBox {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(50% - 15px);
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+.questionBox .code {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ff6622;
+    color: #ffffff;
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 50px;
+    margin: 5px;
+}
+.questionBox .name {
+    margin: 5px;
+}
+
+iframe {
+    outline: 0;
+    border: 0;
+    width: 100%;
+    height: calc(100vh - 62px);
+}
+
+.sidebarMenuBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 998;
+    display: none;
+}
+.sidebarMenu {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 999;
+    border-radius: 0 18px 18px 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.sidebarMenu .header {
+    background-color: #ff6622;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sidebarMenu .header img {
+    width: 65%;
+}
+.sidebarMenu .menu {
+    padding: 5px 15px;
+}
+.sidebarMenu .menu .icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 22px;
+    padding: 10px;
+}
+.sidebarMenu .menu .text {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.dialogBoxBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 998;
+    display: none;
+}
+.dialogBox {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 18px;
+    width: 300px;
+    top: 50%;
+    left: calc(50% - 150px);
+    transform: translateY(-50%);
+    text-align: left;
+}
+.dialogBox a {
+    font-weight: bold;
+}
+.dialogBox .minibr {
+    height: 6px;
+}
+.dialogBox .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+.dialogBox .detail {
+    margin: 10px;
+}
+.dialogBox .detail select {
+    border: 0;
+    background-color: #EEEEEE;
+    border-bottom: 2px solid #ff6622;
+    border-radius: 10px;
+    padding: 12px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 15px;   
+    outline: 0;   
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.dialogBox .detail select {
+    background-image:
+      linear-gradient(45deg, transparent 50%, gray 50%),
+      linear-gradient(135deg, gray 50%, transparent 50%),
+      linear-gradient(to right, #ccc, #ccc);
+    background-position:
+      calc(100% - 20px) calc(1em + 4px),
+      calc(100% - 15px) calc(1em + 4px),
+      calc(100% - 2.5em) 0.5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1px 25px;
+    background-repeat: no-repeat;
+  }
+
+.dialogBox .buttonContainer {
+    text-align: right;
+}
+.dialogBox .buttonContainer .button {
+    color: #ff6622;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 12px;
+    display: inline-block;
+}
+
+
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    background-color: rgba(100,100,100,100.8); /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 12px; /* Rounded borders */
+    padding: 14px; /* Padding */
+    font-size: 15px;
+    line-height: 18px;
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    transform: translateX(-50%);
+    bottom: 30px; /* 30px from the bottom */
+    z-index: 1001;
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible; /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+#questionHere {
+    position: fixed; 
+    top: 15px; 
+    left: 0; 
+    width: 100%; 
+    height: calc(100% - 15px);
+}
+
+
+
+.toolMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0);
+    z-index: 999;
+    display: none;
+}
+.toolMenu .tools {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 5px 0;
+    overflow: hidden;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+}
+.toolMenu .tools .tool {
+    padding: 5px 15px;
+}
+.toolMenu .tools .tool .icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    width: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+.toolMenu .tools .tool .name {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+
+.dialogBoxBackground .dialogBox .meter {
+    width: calc(100% - 20px);
+    background-color: #DDDDDD;
+    height: 8px;
+    border-radius: 4px;
+    margin: 15px 10px;
+    overflow: hidden;
+}
+.dialogBoxBackground .dialogBox .meter .complete {
+    background-color: #ff6622;
+    border-radius: 4px;
+    width: 0%;
+    height: 100%;
+}
+
+
+
+
+#loading {
+    background-color: #EEEEEE;
+    position: fixed; 
+    top: 55px; 
+    left: 0; 
+    width: 100%; 
+    height: calc(100% - 55px);
+    z-index: 900;
+}
+.loadingContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    text-align: center;
+}
+.loadingContent .text {
+    padding: 5px;
+}
+.loadingContent .text .title {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.loadingContent .text .semiTitle {
+    font-style: italic;
+}
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 90px;
+    height: 90px;
+}
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    margin: 8px;
+    border: 8px solid #ff6622;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #ff6622 transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+.ayatBox {
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 12px;
+    margin-bottom: 18px;
+    overflow: hidden;
+}
+
+.arabicAyat {
+    font-family: "Noto Naskh Arabic", serif;
+    font-optical-sizing: auto;
+    font-size: 22px;
+    text-align: center;
+    line-height: 130%;
+    padding: 25px;
+    padding-bottom: 10px;
+}
+.ayatTranslation {
+    background-color: #EEEEEE;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+.englishAyat {
+    padding: 5px 10px;
+    font-family: "Hind Siliguri", sans-serif;
+    line-height: 130%;
+    font-size: 14px;
+}
+.surahName {
+    background-color: #ff6622;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 8px;
+    margin-top: 8px;
+}
+.surahName .title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 2px;
+}
+.surahName .semiTitle {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    margin: 2px;
+}
+
+#viewer {
+    height: calc(100dvh - 62px);
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta property="og:title" content="UIU Question Bank"/>
+    <meta property="og:description" content="The largest UIU question bank for the CSE department"/>
+    <meta property="og:image" content="https://nurulalamador.github.io/UIUQuestionBank/img/ogimage.png"/>
+    <title>UIU Question Bank</title>
+    <link href="css/all.css" rel="stylesheet">
+    <link href="css/style.css?ayatPaddinng" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Noto+Naskh+Arabic:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menuBar">
+        <div id="openMenu" class="icon rippleButton">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="text">
+            <div class="title">UIU Question Bank</div>
+        </div>
+    </div>
+    <div class="content">
+        <div id="ayatBoxHere"></div>
+        <div class="contentBox">
+            <a href="courses.html">
+                <div class="seeMore rippleButtonBlack">
+                    <div class="text">All Courses</div>
+                    <div class="icon"><i class="fas fa-arrow-right"></i></div>
+                </div>
+            </a>
+            <div class="mainTitle">Courses</div>
+            <div class="searchBox">
+                <div class="icon"><i class="fas fa-search"></i></div>
+                <input type="text" placeholder="Search Course" id="searchCourse"/> 
+            </div>
+            <div class="courseBoxContainer" id="courseBoxContainer">
+                
+            </div>
+        </div>
+        
+        <a href="mycourses.html">
+            <div class="trimesterButton rippleButton">
+                <div class="icon">
+                    <i class="fas fa-edit"></i>
+                </div>
+                <div class="text">
+                    Edit Your Courses
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="sidebarMenuBackground" id="sidebarMenuBackground"></div>
+    <div class="sidebarMenu" id="sidebarMenu">
+        <div class="header">
+            <img src="img/logo.png"/>
+        </div>
+        <div class="menu rippleButtonBlack" id="openTrimesterBox">
+            <div class="icon">
+                <i class="fas fa-exchange-alt"></i>
+            </div>
+            <div class="text">Change Trimester</div>
+        </div>
+        <a href="mailto: nurulalomador@gmail.com">
+            <div class="menu rippleButtonBlack">
+                <div class="icon">
+                    <i class="fas fa-comment-alt"></i>
+                </div>
+                <div class="text">Send Feedback</div>
+            </div>
+        </a>
+        <div class="menu rippleButtonBlack" id="openAcknowledgmentBox">
+            <div class="icon">
+                <i class="fas fa-align-left"></i>
+            </div>
+            <div class="text">Acknowledgment</div>
+        </div>
+        <div class="menu rippleButtonBlack" id="openAboutBox">
+            <div class="icon">
+                <i class="fas fa-info-circle"></i>
+            </div>
+            <div class="text">About</div>
+        </div>
+    </div>
+    <div class="dialogBoxBackground" id="acknowledgmentBoxBackground">
+        <div class="dialogBox">
+            <div class="title">Acknowledgment</div>
+            <div class="detail">
+                <i>Maximum questions are collected from <a href="https://facebook.com/tashin.parvez.5">Tashin Parvez</a> and <a href="https://facebook.com/groups/uiuss">UIU Scholar's Squad</a> Facebook group.</i>
+            </div>
+            <div class="buttonContainer">
+                <div class="button rippleButtonBlack" id="closeAcknowledgmentBox">Close</div>
+            </div>
+        </div>
+    </div>
+    <div class="dialogBoxBackground" id="aboutBoxBackground">
+        <div class="dialogBox">
+            <div class="title">About</div>
+            <div class="detail">
+                Version 1.1
+                <div class="minibr"></div>
+                <div class="minibr"></div>
+                <i>Developed by <a href="https://facebook.com/NurulAlamAdor">Nurul Alam Ador</a></i>
+            </div>
+            <div class="buttonContainer">
+                <div class="button rippleButtonBlack" id="closeAboutBox">Close</div>
+            </div>
+        </div>
+    </div>
+    <div class="dialogBoxBackground" id="noConnectionBoxBackground">
+        <div class="dialogBox">
+            <div class="title">No Internet Connection</div>
+            <div class="detail">
+                Please check your internet connection, then reload the app.
+            </div>
+            <div class="buttonContainer">
+                <div class="button rippleButtonBlack" id="reloadApp">Reload</div>
+            </div>
+        </div>
+    </div>
+    <div class="dialogBoxBackground" id="trimesterBoxBackground">
+        <div class="dialogBox">
+            <div class="title">Select Trimester</div>
+            <div class="detail">
+                Choose your current trimester:
+                <select id="trimesterList">
+                    <option value="1">Trimester 1</option>
+                    <option value="2">Trimester 2</option>
+                    <option value="3">Trimester 3</option>
+                    <option value="4">Trimester 4</option>
+                    <option value="5">Trimester 5</option>
+                    <option value="6">Trimester 6</option>
+                    <option value="7">Trimester 7</option>
+                    <option value="8">Trimester 8</option>
+                    <option value="9">Trimester 9</option>
+                    <option value="10">Trimester 10</option>
+                    <option value="11">Trimester 11</option>
+                    <option value="12">Trimester 12</option>
+                </select>
+            </div>
+            <div class="buttonContainer">
+                <div class="button rippleButtonBlack" id="selectTrimester">Select</div>
+            </div>
+        </div>
+    </div>
+    <div class="dialogBoxBackground" id="exitBoxBackground">
+        <div class="dialogBox">
+            <div class="title">Exit App</div>
+            <div class="detail">
+                Do you want to exit this app?
+            </div>
+            <div class="buttonContainer">
+                <div class="button rippleButtonBlack" id="exitApp">Yes</div>
+                <div class="button rippleButtonBlack" id="closeExitBox">No</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js?version2.1"></script>
+</body>
+</html>

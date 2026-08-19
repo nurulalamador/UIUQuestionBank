@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>UIU Question Bank</title>
+    <link href="css/all.css" rel="stylesheet">
+    <link href="css/style.css?newZipMeter" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="menuBar" id="menuBarDiv">
+        <a id="back"><div class="icon rippleButton">
+            <i class="fas fa-arrow-left"></i>
+        </div></a>
+        <div class="text">
+            <div class="title" id="titleDiv"></div>
+            <div class="semiTitle" id="semiTitleDiv"></div>
+        </div>
+        <div class="icon rippleButton" id="openToolMenu">
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </div>
+    <div class="content">
+        <div class="contentBox" id="courseInfoBox">
+            <div class="courseInfoBox">
+                <div class="title" id="courseTitle"></div>
+                <div class="semiTitle" id="courseCode"></div>
+            </div>
+        </div>
+        <div class="contentBox">
+            <div class="mainTitle" id="mainTitle">Questions</div>
+                <div class="questionBoxContainer" id="questionBoxContainer">
+
+                </div>
+        </div>
+        <div class="trimesterButton rippleButton" onclick="GenerateZIP()">
+            <div class="icon">
+                <i class="fas fa-file-archive"></i>
+            </div>
+            <div class="text">
+                Generate ZIP File
+            </div>
+        </div>
+    </div>
+    <div class="toolMenu" id="toolMenu">
+        <div class="tools" onclick="GenerateZIP()">
+            <div class="tool rippleButtonBlack">
+                <div class="icon"><i class="fas fa-file-archive"></i></div>
+                <div class="name">Generate ZIP File</div>
+            </div>
+        </div>
+    </div>
+    <div class="dialogBoxBackground" id="zipBoxBackground">
+        <div class="dialogBox">
+            <div class="title">Generating ZIP</div>
+            <div class="detail">
+                Please Wait...
+            </div>
+            <div class="meter">
+                <div class="complete" id="zipComplete"></div>
+            </div>
+        </div>
+    </div>
+    <div id="snackbar"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.6.0/jszip.min.js"></script>
+    <script src="js/questions.js?version2"></script>
+</body>
+</html>

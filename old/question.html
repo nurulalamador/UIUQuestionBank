@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>UIU Question Bank</title>
+    <link href="css/all.css" rel="stylesheet">
+    <link href="css/style.css?WebViewer" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="WebViewer/lib/webviewer.min.js"></script>
+</head>
+<body class="questionBody">
+    <div class="menuBar" id="menuBarDiv">
+        <a id="back"><div class="icon rippleButton">
+            <i class="fas fa-arrow-left"></i>
+        </div></a>
+        <div class="text">
+            <div class="title" id="titleDiv"></div>
+            <div class="semiTitle" id="semiTitleDiv"></div>
+        </div>
+        <div class="icon rippleButton" id="openToolMenu">
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </div>
+    <div class="toolMenu" id="toolMenu">
+        <div class="tools">
+            <span id="downloadLink">
+                
+            </span>
+        </div>
+    </div>
+    <div class="dialogBoxBackground" id="errorBoxBackground">
+        <div class="dialogBox">
+            <div class="title">Unexpected Error</div>
+            <div class="detail">
+                Something went wrong while opening the document file. Please reload the page or download PDF file!
+            </div>
+            <div class="buttonContainer">
+                <a href="" id="downloadPDF"><div class="button rippleButtonBlack">Download PDF</div></a>
+                <div class="button rippleButtonBlack" id="reloadApp">Reload</div>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="loading">
+        <div class="loadingContent">
+            <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+            <div class="text">
+                <div class="title">Loading Document</div>
+                <div class="semiTitle">Please Wait...</div>
+            </div>
+        </div>
+    </div> -->
+    <div id="viewer"></div>
+    <!-- <script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script> -->
+    <script src="js/question.js?PDFJSExpressByApryse"></script>
+</body>
+</html>

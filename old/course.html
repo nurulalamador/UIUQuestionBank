@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>UIU Question Bank</title>
+    <link href="css/all.css" rel="stylesheet">
+    <link href="css/style.css?solution" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="menuBar" id="menuBarDiv">
+        <a id="back"><div class="icon rippleButton">
+            <i class="fas fa-arrow-left"></i>
+        </div></a>
+        <div class="text">
+            <div class="title" id="titleDiv"></div>
+            <div class="semiTitle" id="semiTitleDiv"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="contentBox" id="courseInfoBox">
+            <div class="courseInfoBox">
+                <div class="title" id="courseTitle"></div>
+                <div class="semiTitle" id="courseCode"></div>
+            </div>
+        </div>
+        <div class="contentBox examTypeBoxContainer" id="solveContainer">
+            <a id="mid">
+                <div class="examTypeBox rippleButtonBlack">
+                    <div class="icon" id="iconOne"><i class="fas fa-poll-h"></i></div>
+                    <div class="text">
+                        <div class="title">Mid-Term</div>
+                        <div class="semiTitle">Questions</div>
+                    </div>
+                </div>
+            </a><a id="final">
+                <div class="examTypeBox rippleButtonBlack">
+                    <div class="icon" id="iconTwo"><i class="fas fa-poll-h"></i></div>
+                    <div class="text">
+                        <div class="title">Final</div>
+                        <div class="semiTitle">Questions</div>
+                    </div>
+                </div>
+            </a><a id="midSolve">
+                <div class="examTypeBox rippleButtonBlack">
+                    <div class="disable" id="disableMid"></div>
+                    <div class="icon" id="iconThree"><i class="fas fa-poll-h"></i></div>
+                    <div class="text">
+                        <div class="title">Mid-Term</div>
+                        <div class="semiTitle">Solutions</div>
+                    </div>
+                </div>
+            </a><a id="finalSolve">
+                <div class="examTypeBox rippleButtonBlack">
+                    <div class="disable" id="disableFinal"></div>
+                    <div class="icon" id="iconFour"><i class="fas fa-poll-h"></i></div>
+                    <div class="text">
+                        <div class="title">Final</div>
+                        <div class="semiTitle">Solutions</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="snackbar"></div>
+    <script src="js/course.js?version2"></script>
+</body>
+</html>
