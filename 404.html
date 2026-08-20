@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <script>
+    const base = "/UIUQuestionBank";
+    const { pathname, search, hash } = window.location;
+
+    // Remove "/UIUQuestionBank" from requested path
+    let route = pathname.startsWith(base)
+      ? pathname.slice(base.length)
+      : pathname;
+
+    // Preserve original query string and hash
+    const originalUrl = route + search + hash;
+
+    // Send user back to React app
+    window.location.replace(
+      base + "/?redirect=" + encodeURIComponent(originalUrl)
+    );
+  </script>
+</head>
+<body>
+</body>
+</html>
