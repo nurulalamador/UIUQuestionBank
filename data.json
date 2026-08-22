@@ -3414,8 +3414,7 @@
                 "url": "question/CSE4165/mid/CSE4165_Mid_261.pdf"
             }
         ],
-        "final": [
-        ],
+        "final": [],
         "midSolve": "null",
         "finalSolve": "null"
     },
@@ -3478,6 +3477,102 @@
                 "url": "question/CSE4889/final/CSE4889_Final_261.pdf"
             }
         ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE4495",
+        "title": "Software Testing and Quality Assurance",
+        "code": "CSE 4495",
+        "abbr": "STQA",
+        "trimester": 10,
+        "color": "#7A9CC6",
+        "mid": [],
+        "final": [
+            {
+                "code": 243,
+                "url": "question/CSE4495/final/CSE4495_Final_243.pdf"
+            },
+            {
+                "code": 251,
+                "url": "question/CSE4495/final/CSE4495_Final_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/CSE4495/final/CSE4495_Final_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/CSE4495/final/CSE4495_Final_253.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE4611",
+        "title": "Compiler Design",
+        "code": "CSE 4611",
+        "abbr": "CD",
+        "trimester": 10,
+        "color": "#9CAF88",
+        "mid": [
+            {
+                "code": 253,
+                "url": "question/CSE4611/final/CSE4611_Final_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/CSE4611/final/CSE4611_Final_261.pdf"
+            }
+        ],
+        "final": [],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "EEE4261",
+        "title": "Green Computing",
+        "code": "EEE 4261",
+        "abbr": "GC",
+        "trimester": 10,
+        "color": "#00C2A8",
+        "mid": [],
+        "final": [
+            {
+                "code": 251,
+                "url": "question/EEE4261/final/EEE4261_Final_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/EEE4261/final/EEE4261_Final_252.pdf"
+            }
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
+        "id": "CSE4883",
+        "title": "Digital Image Processing",
+        "code": "CSE 4883",
+        "abbr": "DIP",
+        "trimester": 10,
+        "color": "#FF6F61",
+        "mid": [
+            {
+                "code": 252,
+                "url": "question/CSE4883/final/CSE4883_Final_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/CSE4883/final/CSE4883_Final_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/CSE4883/final/CSE4883_Final_261.pdf"
+            }
+        ],
+        "final": [],
         "midSolve": "null",
         "finalSolve": "null"
     },
