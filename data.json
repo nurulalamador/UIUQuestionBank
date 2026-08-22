@@ -3561,15 +3561,15 @@
         "mid": [
             {
                 "code": 252,
-                "url": "question/CSE4883/mid/CSE4883_Final_252.pdf"
+                "url": "question/CSE4883/mid/CSE4883_Mid_252.pdf"
             },
             {
                 "code": 253,
-                "url": "question/CSE4883/mid/CSE4883_Final_253.pdf"
+                "url": "question/CSE4883/mid/CSE4883_Mid_253.pdf"
             },
             {
                 "code": 261,
-                "url": "question/CSE4883/mid/CSE4883_Final_261.pdf"
+                "url": "question/CSE4883/mid/CSE4883_Mid_261.pdf"
             }
         ],
         "final": [],
@@ -3648,6 +3648,18 @@
             {
                 "code": 251,
                 "url": "question/BIO3105/mid/BIO3105_Mid_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/BIO3105/mid/BIO3105_Mid_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/BIO3105/mid/BIO3105_Mid_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/BIO3105/mid/BIO3105_Mid_261.pdf"
             }
         ],
         "final": [
@@ -3670,6 +3682,18 @@
             {
                 "code": 251,
                 "url": "question/BIO3105/final/BIO3105_Final_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/BIO3105/final/BIO3105_Final_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/BIO3105/final/BIO3105_Final_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/BIO3105/final/BIO3105_Final_261.pdf"
             }
         ],
         "midSolve": "null",
