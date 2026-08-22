@@ -2598,6 +2598,10 @@
             {
                 "code": 253,
                 "url": "question/CSE3811/mid/CSE3811_Mid_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/CSE3811/mid/CSE3811_Mid_261.pdf"
             }
         ],
         "final": [
@@ -3519,11 +3523,11 @@
         "mid": [
             {
                 "code": 253,
-                "url": "question/CSE4611/final/CSE4611_Final_253.pdf"
+                "url": "question/CSE4611/final/CSE4611_Mid_253.pdf"
             },
             {
                 "code": 261,
-                "url": "question/CSE4611/final/CSE4611_Final_261.pdf"
+                "url": "question/CSE4611/final/CSE4611_Mid_261.pdf"
             }
         ],
         "final": [],
