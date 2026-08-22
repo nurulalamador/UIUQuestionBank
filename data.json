@@ -3523,11 +3523,11 @@
         "mid": [
             {
                 "code": 253,
-                "url": "question/CSE4611/final/CSE4611_Mid_253.pdf"
+                "url": "question/CSE4611/mid/CSE4611_Mid_253.pdf"
             },
             {
                 "code": 261,
-                "url": "question/CSE4611/final/CSE4611_Mid_261.pdf"
+                "url": "question/CSE4611/mid/CSE4611_Mid_261.pdf"
             }
         ],
         "final": [],
@@ -3808,6 +3808,18 @@
             {
                 "code": 251,
                 "url": "question/IPE3401/mid/IPE3401_Mid_251.pdf"
+            },
+            {
+                "code": 252,
+                "url": "question/IPE3401/mid/IPE3401_Mid_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/IPE3401/mid/IPE3401_Mid_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/IPE3401/mid/IPE3401_Mid_261.pdf"
             }
         ],
         "final": [
