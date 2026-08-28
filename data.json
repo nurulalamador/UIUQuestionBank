@@ -3704,6 +3704,32 @@
         "finalSolve": "null"
     },
     {
+        "id": "CSE4891",
+        "title": "Data Mining",
+        "code": " CSE 4891",
+        "abbr": "DM",
+        "trimester": 10,
+        "color": "#8956BC",
+        "mid": [
+            {
+                "code": 252,
+                "url": "question/CSE4891/mid/CSE4891_Mid_252.pdf"
+            },
+            {
+                "code": 253,
+                "url": "question/CSE4891/mid/CSE4891_Mid_253.pdf"
+            },
+            {
+                "code": 261,
+                "url": "question/CSE4891/mid/CSE4891_Mid_261.pdf"
+            }
+        ],
+        "final": [
+        ],
+        "midSolve": "null",
+        "finalSolve": "null"
+    },
+    {
         "id": "CSE3715",
         "title": "Data Communication",
         "code": "CSE 3715",
